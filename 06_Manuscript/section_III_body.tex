@@ -1,0 +1,47 @@
+% Section III - Leakage in connectivity pipelines. SOURCE OF TRUTH (the .md draft is superseded).
+% The intellectual centre of the paper: per blueprint Sec 9, never cut from here or Section V.
+% Budget: ~760 total under option B, 1,045 under option A (word_budget_MLESP.md; advisor Q2). Never cut drafted text here (blueprint Sec 9).
+
+\subsection{Pipeline formalization and connectivity measures}
+Let $x_i(t)$ denote the signal recorded at channel $i$, $i = 1,\dots,N$, and let $T$ be the number of samples in an epoch. A connectivity-based classifier does not operate on $x_i(t)$ directly; it operates on a matrix $\mathbf{A} \in \mathbb{R}^{N \times N}$ derived from $x_i(t)$ through a chain of steps---filtering, epoching, connectivity estimation, thresholding, normalization---each of which is fit on some subset of the data. The question this audit asks of each study is which subset that was.
+
+\emph{Magnitude-squared coherence} between channels $i$ and $j$ at frequency $f$ is
+\begin{equation}
+C_{ij}(f) = \frac{|S_{ij}(f)|^2}{S_{ii}(f)\,S_{jj}(f)},
+\end{equation}
+where $S_{ij}(f)$ is the cross-spectral density \cite{nunez1997}. $S_{ij}$ is estimated over a window of data; if that window spans samples from both partitions, or is averaged across subjects before the partition is applied, the estimate and every feature derived from it carry information from outside the training fold.
+
+The \emph{phase-locking value} \cite{lachaux1999}, with $\Delta\phi_{ij}(t)$ the instantaneous phase difference between channels $i$ and $j$, is
+\begin{equation}
+\mathrm{PLV}_{ij} = \frac{1}{T}\left|\sum_{t=1}^{T} e^{\mathrm{j}\,\Delta\phi_{ij}(t)}\right|.
+\end{equation}
+PLV is bounded in $[0,1]$ and is usually estimated within a single epoch, which limits but does not remove the estimation route: pooling epochs across subjects before computing it still leaks.
+
+The \emph{phase lag index}, $\mathrm{PLI}_{ij} = \left|\left\langle \operatorname{sign}\big(\Delta\phi_{ij}(t)\big)\right\rangle_t\right|$, discounts zero-lag coupling, which volume conduction would otherwise dominate \cite{stam2007}.
+% REVIEW 2026-09-27 (C10): display equations inlined for space.
+
+Any of these yields a weighted adjacency matrix $\mathbf{A}$. Matrices are often binarized at a threshold $\tau$ ($A^{\mathrm{bin}}_{ij} = 1$ if $A_{ij} > \tau$, else 0), or reduced to their $k$ strongest edges. If $\tau$ or $k$ is chosen from the distribution of $A_{ij}$ pooled across the full dataset---a common way to fix a target graph density---it is a parameter fit on data that include the test set.
+
+\subsection{A taxonomy of leakage surfaces}
+Fig.~\ref{fig:pipeline} shows two orderings of the same pipeline. In the leakage-free ordering (a), the train/test partition is applied immediately after filtering, and every later step is computed separately within each fold. In the leaking ordering (b), the partition is applied last, after epoching, connectivity estimation, and threshold or normalization statistics have been computed on the pooled dataset, so the test set has already shaped the features before the model sees a split. We identify five points at which this can occur.
+
+% REVIEW 2026-09-27 (E1): figure* moved to Section I-B (now Fig. 1).
+
+
+\textbf{L1 --- Epoch-level partitioning.} A recording contributes many epochs, each treated as a sample. If the train/test or fold assignment is made per epoch rather than per subject, epochs from the same subject appear on both sides. \emph{Leakage-free condition:} every epoch from a subject is assigned to the same side.
+
+\textbf{L2 --- Connectivity estimation scope.} Coherence, PLV, PLI, or another measure is estimated from a window of data. \emph{Leakage-free condition:} each estimate lies entirely within one fold, and no estimate is pooled or averaged across subjects before the partition.
+
+\textbf{L3 --- Threshold selection.} A threshold $\tau$ or edge count $k$ is applied to the matrix. \emph{Leakage-free condition:} $\tau$ or $k$ is fixed a priori or chosen from training-fold statistics only, never from a distribution pooled across the full dataset.
+
+\textbf{L4 --- Feature normalization.} Matrices or derived features are standardized or rescaled. \emph{Leakage-free condition:} normalization statistics are computed on the training fold and applied unchanged to the test fold.
+
+\textbf{L5 --- Channel or band selection.} A subset of electrodes or frequency bands is chosen for the final model. \emph{Leakage-free condition:} the subset is chosen a priori or from training-fold performance only, never by comparing candidate subsets on test-set accuracy.
+
+Section~\ref{sec:methods} turns these conditions into rating rules, and Table~\ref{tab:checklist} (Section~\ref{sec:checklist}) into a checklist a reader can apply.
+
+% REVIEW 2026-11-07 (R2 W5, Q5): scope of the taxonomy stated explicitly, so the checklist is not read as complete.
+\emph{Out of scope.} Independent component analysis, artifact subspace reconstruction, re-referencing, bad-channel interpolation and normalization of the matrix itself can also be fit on the full dataset before the split; we excluded them as generic preprocessing, and because the corpus rarely describes them well enough to code. L1--L5 and Table~\ref{tab:checklist} are therefore necessary, not sufficient, for ruling out leakage.
+
+\subsection{Why EEG subject signatures make L1 severe}
+L1 deserves separate emphasis because EEG carries stable subject-specific signatures: resting-state recordings, including channel coherence, identify individuals across sessions at least two weeks apart \cite{di2021}. A classifier trained on epochs from a subject who also appears in the test set does not need to learn anything about depression to score well on that subject's test epochs; it can recognize the individual and recall their label. A 2026 preprint reproduced this inflation from shared subjects across five resting-state cohorts, including eyes-closed and eyes-open recordings from the Mumtaz depression dataset \cite{sahuc2026}. The literature under audit typically pairs tens of subjects (median \NsubjMedian{}, Table~\ref{tab:corpus}) with many epochs per subject, which is the regime in which within-subject information dominates a shuffled split. The effect is compounded, not replaced, by L2--L5: even under subject-level partitioning, a connectivity or threshold estimate computed on the whole dataset can still transfer test information into the training features.

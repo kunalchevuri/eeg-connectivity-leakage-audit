@@ -1,0 +1,38 @@
+{
+  "wos": {
+    "records_screened": 100,
+    "excluded_title_abstract": 53,
+    "excluded_title_abstract_reasons": {
+      "other (not depression classification/severity)": 30,
+      "classical ML only / no DL classifier": 6,
+      "other (pre-2015 or not peer-reviewed)": 5,
+      "review/survey": 5,
+      "other (not EEG primary)": 4,
+      "no connectivity step": 3
+    },
+    "reports_sought": 47,
+    "reports_not_retrieved": 24,
+    "reports_assessed": 23,
+    "excluded_full_text": 9,
+    "excluded_full_text_reasons": {
+      "classical ML only / no DL classifier": 4,
+      "no connectivity step": 3,
+      "no signal-derived connectivity": 2
+    },
+    "included": 14
+  },
+  "supplementary": {
+    "reports_sought": 15,
+    "reports_not_retrieved": 11,
+    "reports_assessed": 4,
+    "excluded_full_text": 0,
+    "included": 4
+  },
+  "included_total": 18,
+  "included_firm": 18,
+  "included_provisional": 0,
+  "included_ids": "R001, R007, R019, R023, R032, R034, R040, R044, R049, R050, R055, R056, R082, R086, R101, R102, R103, R104",
+  "provisional_ids": "",
+  "exit_condition_met": true,
+  "wos_query_recovered": false
+}

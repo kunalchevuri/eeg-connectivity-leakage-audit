@@ -1,0 +1,147 @@
+% Auditing Data Leakage and Reporting Gaps in EEG Connectivity Deep Learning for Depression Detection
+% MLESP 2026 (IEEE BIBM workshop). DOUBLE-BLIND: no author names, affiliations or acknowledgements until camera-ready.
+%
+% BUILD (from 06_Manuscript):  python make_macros.py   then   pdflatex paper; bibtex paper; pdflatex paper; pdflatex paper
+% Every number in the text is a macro from macros_counts.tex, generated from the screening log and analysis
+% output. Never type a number into this file.
+%
+% Visible markers that MUST be gone before submission (grep for them):
+%   \CITE{...}     a reference still needed - fill only with a paper you have opened (blueprint Sec 12)
+%   \PENDING{...}  wording or a number waiting on the advisor or on coding
+%   UNVERIFIED     printed in the bibliography until the reference is checked
+\documentclass[conference]{../06_Manuscript/template/IEEEtran/IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+% CAMERA-READY 2026-11-08: needed for the released-repository URL in Section VII.
+\usepackage{url}
+\urlstyle{same}
+
+\newcommand{\CITE}[1]{\textbf{[CITE: #1]}}
+% REVIEW 2026-09-27 (C8): one switch for advisor-dependent notes. Default FALSE: every note prints and preflight fails.
+% Set \decisionsacceptedtrue ONLY after the advisor (or the authors, in writing) accepts every default listed in
+% REVISION_NOTES.md, Table "Decisions". It hides the notes; it does not change any sentence of the paper.
+% Author inputs always print (preflight flags "AUTHOR:"); they are never hidden by the switch.
+\newcommand{\AUTHORINPUT}[1]{\textbf{[AUTHOR: #1]}}
+\newif\ifdecisionsaccepted
+% 2026-09-27: set TRUE after the advisor signed off on the Decisions table (email of 2026-09-27, 01:47).
+\decisionsacceptedtrue
+\newcommand{\PENDING}[1]{\ifdecisionsaccepted\unskip\else\textbf{[PENDING: #1]}\fi}
+\input{macros_counts}
+
+\begin{document}
+\bstctlcite{IEEEexample:BSTcontrol}
+
+% REVIEW 2026-09-27: title changed at the authors' request (no colon, no "Before the Split").
+\title{Auditing Data Leakage and Reporting Gaps in EEG Connectivity Deep Learning for Depression Detection}
+% CAMERA-READY 2026-11-07: double-blind review is over, so the author block is restored. Order and
+% affiliations are exactly as recorded in PORTAL_title_abstract_plaintext.txt and in the portal record for
+% paper S02212. Aledhari is the contact/corresponding author.
+\author{
+\IEEEauthorblockN{Kunal Chevuri}
+\IEEEauthorblockA{\textit{Prosper High School}\\
+Prosper, TX, USA\\
+kunalchevuri510@gmail.com}
+\and
+\IEEEauthorblockN{Leah Ileto}
+\IEEEauthorblockA{\textit{St.\ Lucy's Priory High School}\\
+Glendora, CA, USA\\
+leahileto07@gmail.com}
+\and
+\IEEEauthorblockN{Mohammed Aledhari}
+\IEEEauthorblockA{\textit{University of North Texas}\\
+Denton, TX, USA\\
+Mohammed.Aledhari@unt.edu}
+}
+\maketitle
+
+\begin{abstract}
+% REVIEW 2026-09-27 (C1): rewritten so every claim matches Section V. The earlier draft led with a median comparison
+% resting on two leakage-free studies and did not report the main finding (no whole-dataset L2-L4 step reported).
+Deep learning applied to electroencephalographic (EEG) functional connectivity is a prominent approach to detecting major depressive disorder (MDD), with reported accuracies often above 90\%. Recent reviews have examined how these studies split data into training and test sets, but not the connectivity pipeline that produces the model input: connectivity estimation, thresholding, normalization, and channel or band selection performed before partitioning can transfer test information into training, and epoch-level partitioning can place segments from one subject on both sides of the split. We define five such leakage surfaces and a four-level risk rating based on reported methods alone, and apply the rating to \NincludedTotal{} studies from a citation-ranked corpus rather than a systematic search, so the figures below describe this corpus and are not prevalence estimates for the literature. The clearest finding is partitioning: \PctEpoch\% of the audited studies partitioned at the epoch rather than the subject level, the surface on which two independent raters agreed most closely ($\kappa = \KapLone$). A further \PctUnclearAny\% left at least one preprocessing step undescribed. No study reported fitting connectivity estimation, thresholds, or normalization on the whole dataset; beyond partitioning, the detectable risk came from selecting channels or bands on all data (\PctWholeSelect\% of studies). Because a step a paper never mentions cannot be distinguished from one never performed, we also report the strictest reading of that convention, under which \StrictNfree{} studies can be verified leakage-free. Only \NaccFree{} studies rated leakage-free reported an eligible accuracy, too few to test whether accuracy differs by rating. We propose an eight-item reporting checklist that lets a reader verify, from the paper alone, that a connectivity pipeline is free of leakage.
+\end{abstract}
+
+\begin{IEEEkeywords}
+electroencephalography, functional connectivity, deep learning, major depressive disorder, data leakage
+\end{IEEEkeywords}
+
+\section{Introduction}
+\label{sec:intro}
+\input{section_I_body}
+
+\subsection{Contributions}
+% Worded EXACTLY as blueprint Sec 4. Do not paraphrase.
+\begin{enumerate}
+  \item A leakage taxonomy for EEG connectivity pipelines. We identify five points at which construction of a connectivity matrix can allow test information into training, and describe the conditions under which each occurs.
+  \item A leakage-risk rating scheme. We define a four-level rating applied from reported methods alone, with explicit decision rules, and report inter-rater agreement.
+  \item An audit of the literature. We apply the scheme to \NincludedTotal{} studies and report how completely pipelines are described and how reported accuracy varies across risk strata.
+  \item A reporting checklist. We propose a short set of items that connectivity-based studies should state so leakage can be ruled out by a reader.
+\end{enumerate}
+
+\section{Related Work}
+\label{sec:related}
+\input{section_II_body}
+
+\section{Leakage in Connectivity Pipelines}
+\label{sec:leakage}
+\input{section_III_body}
+
+\section{Methods}
+\label{sec:methods}
+\input{section_IV_body}
+
+\section{Results}
+\label{sec:results}
+\input{section_V_body}
+
+% Table I - corpus characteristics (blueprint Sec 10). Generated by build_results.py from the final coding sheet.
+\IfFileExists{table_I_body.tex}{\input{table_I_body}}{%
+\begin{table}[t]\caption{Corpus characteristics}\label{tab:corpus}\centering
+\fbox{\parbox{0.9\columnwidth}{\centering\PENDING{Table I is generated by build\_results.py from the final coding sheet}}}
+\end{table}}
+
+\section{A Reporting Checklist}
+\label{sec:checklist}
+\input{table_II_body}
+
+\section{Discussion and Limitations}
+\label{sec:discussion}
+\input{section_VII_body}
+
+\section{Conclusion}
+\label{sec:conclusion}
+\input{section_VIII_body}
+
+% Acknowledgment: AI disclosure at submission (ADVISOR RULING 2026-09-24, Q3/Q4: IEEE author guidelines ask for
+% AI-generated content to be disclosed in the acknowledgments; a disclosure does not identify the authors, so it is
+% compatible with double-blind review). AI DRAFT of the wording: Kunal and advisor to check it against
+% 08_Admin/ai_use_log.md so that it is complete and accurate. Contribution statement held until camera-ready.
+
+% RESTORED 2026-09-27 from REVISION_NOTES C6 (lost when the Overleaf copy was set up), tightened to fit 8 pages without
+% dropping any disclosure. APPROVED by the advisor 2026-09-27, with the model line as he specified.
+% Corrections to the C6 text, each checked against 08_Admin/ai_use_log.md and the session records:
+%  - model versions filled from the Claude Code session records (claude-opus-5, claude-opus-5-5, claude-sonnet-5);
+%    the pre-submission review used Claude in the claude.ai app (REVISION_NOTES log entry); its model is not logged;
+%  - title/abstract screening was approved by an author in bulk, so "which an author approved", not "each approved";
+%  - Claude ran the PubMed, OpenAlex and Semantic Scholar searches and drafted the rater instructions (log, Sep 23-24);
+%  - Claude drafted or revised text in every section, including VI (table_II_body.tex prose);
+%  - Perplexity also drafted reference-check notes (log, 2026-09-26);
+%  - "coded" narrowed: AI did extract descriptive metadata, but no AI coded a leakage field or rated a study.
+% CAMERA-READY 2026-11-07: the contribution statement was held until camera-ready (double-blind review).
+% It names which authors were the two raters, which Reviewer 2 (W3) asked to be explicit, and who arbitrated.
+% REVIEW 2026-11-07 (8-page limit): the contribution statement is folded into the Acknowledgment rather than
+% carried as its own section. It still names the two raters and the tiebreaker, which is what R2 (W3) asked for.
+\section*{Contributions and Acknowledgment}
+K.C.\ designed the audit and wrote the protocol, the analysis code and the manuscript. K.C.\ and L.I.\ were the
+two raters, each coding every study independently from identical instructions and without discussion. M.A.\
+supervised the work and, not being a rater, acted as tiebreaker. All authors approved the final manuscript.
+
+Generative AI was used as follows; the authors reviewed all of it and take responsibility for the content. Claude (Anthropic; Claude Code and claude.ai, with Opus 5, Opus 5.5 and Sonnet 5) drafted the screening decisions, which an author approved; ran the PubMed, OpenAlex and Semantic Scholar searches; drafted the rater instructions; extracted descriptive metadata, which an author checked against each paper (for seven studies the AI instead re-checked the values against the full text); wrote the analysis, table and figure code to a specification fixed before accuracies were examined; drafted or revised text in every section, which the authors edited; and cross-checked cited claims against sources. Perplexity was used to find candidate references, run Google Scholar searches and draft reference-check notes. An author opened and checked every reference. No AI tool coded a leakage field or rated a study.
+
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\end{document}

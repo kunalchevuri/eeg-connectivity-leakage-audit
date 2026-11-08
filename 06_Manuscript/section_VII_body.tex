@@ -1,0 +1,26 @@
+% Section VII - Discussion and limitations. AI DRAFT (Claude, 2026-09-25): Kunal and advisor to edit.
+% Blueprint Sec 14 REQUIRES: (1) concede directly that this rates reporting, not conduct; (2) state the deviation
+% from full systematic-review procedure as a limitation. Sentences marked "% RECHECK" depend on the provisional
+% results of 2026-09-25 (S11, Q20, Q22, S05 await the advisor).
+
+% REVIEW 2026-11-07 (8-page limit): condensed. This paragraph restated Section V; it now interprets instead.
+The clearest finding concerns partitioning, not the connectivity pipeline itself: \PctEpoch\% of studies split recordings by epoch and \PctUnclearSplit\% did not state the unit, while no study reported fitting connectivity estimation, thresholds or normalization on the whole dataset. What limited verification was omission. The accuracy comparison could not answer RQ3. That absence of evidence should not be read as evidence that leakage leaves accuracy unchanged, which the neuroimaging studies in Section~\ref{sec:related} show it need not, nor should any individual study's accuracy be read as inflated because of its rating.
+% RECHECK
+
+% P2 (approved 2026-09-27): the 'connectivity label' paragraph was cut; its fact is in Fig. 2 and criterion 2.
+
+\emph{This audit rates reporting, not conduct.} A study rated unclear or leakage-possible may have run a leakage-free pipeline and not said so; one rated leakage-free may contain an error its text does not reveal. Coding an unmentioned step as not performed overstates how many are leakage-free, which Section~\ref{sec:results} bounds. Our ratings describe what a reader can verify from the paper---the question that matters for how an accuracy should be read---not any author's practice.
+
+The corpus is not the product of a full systematic review. It began from a previously assembled set of the 100 most-cited Web of Science articles on the topic, whose exact query and search date could not be recovered, and citation-ranked sampling favors older and more visible work. Full-text retrieval stopped once the corpus reached the protocol's minimum of 15 studies, a stopping rule the protocol did not specify; as a result \NwosNotRetrieved{} of the \NwosSought{} screened-in Web of Science reports were not assessed (one because no copy was available to us), and \NsuppNotRetrieved{} of the \NsuppSought{} supplementary reports were not retrieved. Which studies entered therefore depended partly on retrieval order and access rather than on the criteria alone. The ratings are also not fully independent, several studies sharing a dataset and \NgroupStudies{} coming from one research group; Section~\ref{sec:results} reports how much the prevalence figures move when datasets or groups, rather than studies, are resampled.
+% REVIEW 2026-11-07 (8-page limit): condensed, and the dataset/group sentence folded in, since V-A now carries
+% the clustered intervals in full.
+
+% FIX 2026-09-27: author list is Chevuri, Ileto, Aledhari, so both raters (KC, LI) are authors.
+Both raters worked from identical written instructions and coded independently, but both are authors of this paper, and the rules, though mechanical, required interpretive conventions for thresholds and normalization fixed in advance (Section~\ref{sec:methods}). No rater outside the author group coded any study and no blinded re-coding was performed; the per-surface agreement in Section~\ref{sec:results} stands in its place, and shows the weakness plainly---partitioning is coded reliably, channel and band selection is not. AI-drafted screening, approved by an author (Acknowledgment), may also have missed studies a second human screener would have caught.
+% REVIEW 2026-09-27 (C10): AI sentence removed; the Acknowledgment states it. (E4) screening limitation added.
+% FIX 2026-09-27 (F1): the E4 sentence was hidden behind the inline comment; restored unchanged.
+
+% REVIEW 2026-09-27 (E5): availability statement; anonymized for double-blind review
+% REVIEW 2026-11-07 (R2 W13, Q8; W10): released now rather than promised, and offered as the per-surface
+% exemplars the reviewer asked for. The URL and DOI are author inputs: fill them before upload.
+\emph{Availability.} The coding sheet, both raters' codes, the evidence quote for each study, the tiebreak record and all analysis and figure code are at \url{https://github.com/kunalchevuri/eeg-connectivity-leakage-audit}. Those quotes, with the rules in Section~\ref{sec:methods}, let a reader re-rate the corpus.

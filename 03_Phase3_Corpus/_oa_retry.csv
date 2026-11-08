@@ -1,0 +1,37 @@
+rank,doi,title,oa_pdf
+1,10.1007/s11571-020-09619-0,Major depressive disorder diagnosis based on effective conne,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7969675
+5,10.1177/1550059420916634,Major Depressive Disorder Classification Based on Different ,
+9,10.1016/j.clinph.2020.06.031,Functional connectivity of major depression disorder using o,http://urn.fi/URN:NBN:fi:jyu-202008245636
+10,10.1016/j.compbiomed.2022.105815,EEG based depression recognition using improved graph convol,
+27,10.1109/embc44109.2020.9176471,Anxiety and Depression Diagnosis Method Based on Brain Netwo,
+33,10.1016/j.bspc.2024.106182,EDT: An EEG-based attention model for feature learning and d,
+36,10.1109/BIBM49941.2020.9313270,EEG Based Depression Recognition by Combining Functional Bra,
+42,10.1016/j.neucom.2025.130008,M-MDD: A multi-task deep learning framework for major depres,
+48,10.1016/j.bspc.2023.104666,Directed brain network analysis in anxious and non-anxious d,
+50,10.1016/j.neuroimage.2024.120750,Adaptive node feature extraction in graph-based neural netwo,https://doi.org/10.1016/j.neuroimage.2024.120750
+52,10.1016/j.neuroimage.2022.119348,A benchmark for prediction of psychiatric multimorbidity fro,https://www.sciencedirect.com/science/article/pii/S1053811922004670/pdf
+55,10.3390/bdcc5030039,A Novel Approach to Learning Models on EEG Data Using Graph ,https://www.mdpi.com/2504-2289/5/3/39/pdf?version=1631186050
+57,10.1088/1741-2552/ac8dc3,A thresholding method based on society modularity and role d,
+58,10.1016/j.compbiomed.2025.110045,Predicting depression severity using effective and functiona,
+59,10.1109/BIBM55620.2022.9995246,A Multi-stream Deep Learning Model for EEG-based Depression ,
+61,10.1093/cercor/bhae505,MDD-SSTNet: detecting major depressive disorder by exploring,
+65,10.1109/TIM.2025.3544713,Hardware-Based Real Time EEG Signal Analysis for Depression ,
+66,10.1109/TCSS.2025.3576373,ACM-GNN: Adaptive Cluster-Oriented Modularity Graph Neural N,
+68,10.1016/j.bspc.2024.106973,A graph-based method for automatic graded diagnosis of depre,
+71,10.1016/j.chaos.2025.116163,Revealing patterns in major depressive disorder with machine,
+72,10.1016/j.bspc.2026.109681,EEG-based depression detection using a local-global feature ,
+73,10.1109/JSEN.2024.3493960,Detection of Major Depressive Disorder Using EEG Multifeatur,
+74,10.1016/j.jad.2025.119599,Enhancing differentiation between unipolar and bipolar depre,https://doi.org/10.1016/j.jad.2025.119599
+77,10.3390/bioengineering12101032,Cognitively Inspired Federated Learning Framework for Interp,https://www.mdpi.com/2306-5354/12/10/1032/pdf?version=1758894248
+79,10.1166/jmihi.2020.2866,Classification of Depression with Brain Network Characterist,
+82,10.3390/s25164989,Integrating Cortical Source Reconstruction and Adversarial L,https://www.mdpi.com/1424-8220/25/16/4989/pdf?version=1755064976
+85,10.31083/JIN48264,Research on Depression Recognition Based on EEG Microstate F,https://doi.org/10.31083/jin48264
+86,10.1209/0295-5075/ac7ba4,Attention-mechanism-based network characteristic analysis fo,https://iopscience.iop.org/article/10.1209/0295-5075/ac7ba4/pdf
+87,10.1109/IJCNN60899.2024.10650157,Depressive Disorders Recognition by Functional Connectivity ,
+88,10.1016/j.neucom.2025.131074,Improving depression diagnosis using a brain module-based we,
+89,10.1109/ACCESS.2025.3614269,A Novel EEG-Based Hypergraph Convolution Network for Depress,https://doi.org/10.1109/access.2025.3614269
+92,10.1007/s13755-026-00463-w,A noval 4D graph temporal brain network model for EEG-based ,https://pmc.ncbi.nlm.nih.gov/articles/PMC13260561/
+93,10.1016/j.irbm.2026.100941,ESNN: End-to-End Shuttle Neural Network for Major Depressive,
+96,10.1109/SPMB62441.2024.10842259,Resting-State Functional Connectivity in Children and Adoles,
+98,10.1109/ICASSP49660.2025.10890734,STGE-Former: Spatial-Temporal Graph-Enhanced Transformer for,
+100,10.1109/JSEN.2026.3657750,A Novel Spatial-Temporal Graph Neural Network for Major Depr,

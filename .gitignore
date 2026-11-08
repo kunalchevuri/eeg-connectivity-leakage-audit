@@ -1,0 +1,38 @@
+# Copyrighted publisher full texts: never commit (each rater gets PDFs directly)
+03_Phase3_Corpus/fulltexts/
+04_Phase4_Coding/FOR_LEAH*/papers/
+*.pdf
+# ...except PDFs we produced or own
+!00_Blueprint/*.pdf
+!06_Manuscript/paper.pdf
+!06_Manuscript/figures/*.pdf
+!source_materials/posters/MDD_EEG_Bibliometric_Poster_*.pdf
+
+# Rater workbooks stay local until BOTH raters have finished (rater independence).
+# Add them, and the *_scored.csv files, after scoring.
+04_Phase4_Coding/rater_A_*.xlsx
+04_Phase4_Coding/rater_B_*.xlsx
+04_Phase4_Coding/FOR_LEAH*/
+04_Phase4_Coding/superseded/
+04_Phase4_Coding/crosscheck_KC_vs_extracted.xlsx
+~$*.xlsx
+
+# Private correspondence drafts
+08_Admin/EMAIL_TO_*.md
+04_Phase4_Coding/MESSAGE_TO_LEAH.md
+
+# Unrelated project
+source_materials/posters/Wearables_Privacy_Poster*
+
+# Build artifacts
+__pycache__/
+*.pyc
+06_Manuscript/*.aux
+06_Manuscript/*.log
+06_Manuscript/*.blg
+06_Manuscript/*.out
+06_Manuscript/_*.png
+!04_Phase4_Coding/snapshots_pre_resolution/*.xlsx
+04_Phase4_Coding/FOR_KUNAL_RECODE/
+# coding closed 2026-09-24: final rater sheets may be shared (snapshots hold the as-received versions)
+!04_Phase4_Coding/rater_A_Kunal_2026-09-23.xlsx

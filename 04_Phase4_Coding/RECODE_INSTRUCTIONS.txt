@@ -1,0 +1,32 @@
+UNUSED (option B, 2026-09-24): no recode is being done; kept in case the advisor asks for S05 to be recoded.
+
+RECODE - 4 papers (S03, S05, S06, S08), about 30 minutes
+=========================================================
+Identical instructions for both raters.
+
+WHY
+Dr. Aledhari ruled (advisor question 16, 2026-09-24) that the accuracy we record is the result for the
+model the paper proposes, under the MOST SUBJECT-INDEPENDENT evaluation the paper reports, and that the
+five leakage codes must describe that SAME evaluation. Your first pass followed the abstract's number.
+These four papers report more than one evaluation, so each of us codes them again, alone.
+
+STEPS (for each paper)
+1. Open the PDF named in pdf_file. Find every evaluation of the model the paper PROPOSES
+   (for example: 10-fold cross-validation on samples, leave-one-subject-out, a 70/30 split).
+2. Pick the most subject-independent one: the one that most clearly keeps each person's data on one
+   side of the split.
+     leave-one-subject-out, or a split the paper says is by subject/participant   (most)
+     a split where the paper does not say what was split
+     a split of pieces (segments, epochs, samples, windows)                        (least)
+   If two are equally subject-independent, pick the one in the paper's main results table.
+3. In protocol_coded, write that evaluation in a few words, the accuracy the paper gives for it, and
+   where (e.g. "LOSO, full band, 91.03%, Table 4"). If the abstract and the tables disagree, use the tables.
+4. Code the five yellow dropdowns for THAT evaluation only, with the same rules as before (QUICK GUIDE).
+   evidence_quote = one sentence, copied word for word from the paper, describing that evaluation's split.
+5. If the paper really reports only ONE evaluation of its proposed model, code it anyway and start
+   protocol_coded with "single protocol".
+
+RULES
+- Work alone. Don't open your first-pass sheet or the other rater's sheet while recoding.
+- Don't discuss any of these papers with the other rater until you have both finished.
+- Only what the paper says. "unclear" is still a real answer.

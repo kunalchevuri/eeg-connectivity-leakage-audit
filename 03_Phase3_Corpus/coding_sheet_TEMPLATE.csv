@@ -1,0 +1,1 @@
+study_id,citation,doi,dataset,n_subjects,n_mdd,n_control,connectivity_measure,frequency_bands,architecture,epoching,epochs_per_subject,split_unit,split_strategy,connectivity_scope,threshold_fit,normalization_fit,selection_fit,accuracy,other_metrics,leakage_rating,rater,evidence_quote

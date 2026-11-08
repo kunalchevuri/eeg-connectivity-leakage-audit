@@ -1,0 +1,8 @@
+size_tercile,leakage_rating,count,median
+small,likely,4,97.195
+small,possible,1,98.3
+small,unclear,1,89.03
+medium,free,2,88.89
+medium,likely,6,99.26750000000001
+medium,possible,1,91.06
+large,unclear,2,86.985

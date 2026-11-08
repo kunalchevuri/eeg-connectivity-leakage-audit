@@ -1,0 +1,5 @@
+wos_rank,doi,senior_author,year,source,title
+101,10.3389/fnins.2024.1367212,"Wang, Zhuozheng",2024,Frontiers in Neuroscience,Graph-based EEG approach for depression prediction: integrating time-frequency complexity and spatial topology
+102,10.14569/ijacsa.2023.0140720,"Xia, Lihua",2023,International Journal of Advanced Computer Science and Applications,A Local-Global Graph Convolutional Network for Depression Recognition using EEG Signals
+103,10.1109/ACCESS.2021.3049427,"Faye, Ibrahima",2021,IEEE Access,Automated Diagnosis of Major Depressive Disorder Using Brain Effective Connectivity and 3D Convolutional Neural Network
+104,10.1109/TIM.2022.3211559,"Gao, Zhongke",2022,IEEE Transactions on Instrumentation and Measurement,A Novel Complex Network-Based Graph Convolutional Network in Major Depressive Disorder Detection

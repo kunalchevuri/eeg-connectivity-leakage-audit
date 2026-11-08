@@ -1,0 +1,13 @@
+TITLE:
+Auditing Data Leakage and Reporting Gaps in EEG Connectivity Deep Learning for Depression Detection
+
+ABSTRACT:
+Deep learning applied to electroencephalographic (EEG) functional connectivity is a prominent approach to detecting major depressive disorder (MDD), with reported accuracies often above 90%. Recent reviews have examined how these studies split data into training and test sets, but not the connectivity pipeline that produces the model input: connectivity estimation, thresholding, normalization, and channel or band selection performed before partitioning can transfer test information into training, and epoch-level partitioning can place segments from one subject on both sides of the split. We define five such leakage surfaces and a four-level risk rating based on reported methods alone, and apply the rating to 18 studies. Two raters agreed on 94% of ratings (Cohen's kappa 0.91). Of the audited studies, 50% partitioned at the epoch rather than the subject level, and 22% left at least one preprocessing step undescribed. No study reported fitting connectivity estimation, thresholds, or normalization on the whole dataset; beyond partitioning, the detectable risk came from selecting channels or bands on all data (17% of studies). Only 2 studies rated leakage-free reported an eligible accuracy, too few to test whether accuracy differs by rating. We propose an eight-item reporting checklist that lets a reader verify, from the paper alone, that a connectivity pipeline is free of leakage.
+
+KEYWORDS:
+electroencephalography, functional connectivity, deep learning, major depressive disorder, data leakage, cross-validation, reproducibility, brain networks
+
+AUTHORS AND AFFILIATIONS (portal form only; never in the PDF), in this order:
+1. Kunal Chevuri, Prosper High School
+2. Leah Ileto, St Lucy's Priory High School
+3. Mohammed Aledhari, University of North Texas

@@ -1,0 +1,4 @@
+paper_overleaf_final.pdf: 8 pages
+All checks passed.
+
+Not automatable (do by hand, blueprint Phase 8): every reference opened and verified; every number in the abstract matches Results; no study named as a leakage example in prose; read the paper aloud once; figures legible in grayscale at print size.

@@ -1,0 +1,285 @@
+{
+  "_provenance": {
+    "status": "POST HOC, added for the camera-ready in response to the reviewers",
+    "written": "2026-11-07",
+    "not_part_of": "the pre-specified analysis plan (analysis.py, sensitivity.py, rq4.py)",
+    "seed": 20260923,
+    "n_boot": 10000,
+    "rating_rule": "unchanged, imported from 04_Phase4_Coding/score_ratings.py"
+  },
+  "A_not_reported_bound": {
+    "what": "every none on L3-L5 re-read as unclear (worst case); L1 and L2 untouched",
+    "n_none_cells_recoded": 37,
+    "n_studies_with_any_none": 17,
+    "rating_before": {
+      "free": 3,
+      "possible": 2,
+      "likely": 10,
+      "unclear": 3
+    },
+    "rating_after": {
+      "free": 0,
+      "possible": 5,
+      "likely": 10,
+      "unclear": 3
+    },
+    "n_free_before": 3,
+    "n_free_after": 0,
+    "n_likely_before": 10,
+    "n_likely_after": 10,
+    "n_studies_rating_changed": 3,
+    "studies_changed": [
+      {
+        "study_id": "S06",
+        "leakage_rating": "free",
+        "rating_strict": "possible"
+      },
+      {
+        "study_id": "S12",
+        "leakage_rating": "free",
+        "rating_strict": "possible"
+      },
+      {
+        "study_id": "S17",
+        "leakage_rating": "free",
+        "rating_strict": "possible"
+      }
+    ],
+    "pct_epoch_unchanged": true
+  },
+  "B_per_surface_agreement": [
+    {
+      "surface": "L1",
+      "column": "split_unit",
+      "n_studies": 18,
+      "n_agree": 17,
+      "percent_agreement": 0.9444444444444444,
+      "kappa": 0.90625,
+      "kappa_ci_low": 0.6896551724137933,
+      "kappa_ci_high": 1.0,
+      "n_categories_observed": 3,
+      "categories": [
+        "epoch",
+        "subject",
+        "unclear"
+      ],
+      "n_non_modal_codes": 17,
+      "kappa_defined": true,
+      "stable": true,
+      "note": "estimable"
+    },
+    {
+      "surface": "L2",
+      "column": "connectivity_scope",
+      "n_studies": 18,
+      "n_agree": 18,
+      "percent_agreement": 1.0,
+      "kappa": null,
+      "kappa_ci_low": null,
+      "kappa_ci_high": null,
+      "n_categories_observed": 1,
+      "categories": [
+        "within-fold"
+      ],
+      "n_non_modal_codes": 0,
+      "kappa_defined": false,
+      "stable": false,
+      "note": "no variation: every code identical, so expected agreement is 1 and kappa is undefined"
+    },
+    {
+      "surface": "L3",
+      "column": "threshold_fit",
+      "n_studies": 18,
+      "n_agree": 17,
+      "percent_agreement": 0.9444444444444444,
+      "kappa": 0.8695652173913043,
+      "kappa_ci_low": 0.5263157894736842,
+      "kappa_ci_high": 1.0,
+      "n_categories_observed": 2,
+      "categories": [
+        "none",
+        "within-fold"
+      ],
+      "n_non_modal_codes": 11,
+      "kappa_defined": true,
+      "stable": true,
+      "note": "estimable"
+    },
+    {
+      "surface": "L4",
+      "column": "normalization_fit",
+      "n_studies": 18,
+      "n_agree": 15,
+      "percent_agreement": 0.8333333333333334,
+      "kappa": 0.6878612716763007,
+      "kappa_ci_low": 0.4000000000000001,
+      "kappa_ci_high": 1.0,
+      "n_categories_observed": 3,
+      "categories": [
+        "none",
+        "unclear",
+        "within-fold"
+      ],
+      "n_non_modal_codes": 13,
+      "kappa_defined": true,
+      "stable": true,
+      "note": "estimable"
+    },
+    {
+      "surface": "L5",
+      "column": "selection_fit",
+      "n_studies": 18,
+      "n_agree": 12,
+      "percent_agreement": 0.6666666666666666,
+      "kappa": 0.3647058823529411,
+      "kappa_ci_low": -0.05111621954687644,
+      "kappa_ci_high": 0.7096774193548387,
+      "n_categories_observed": 4,
+      "categories": [
+        "none",
+        "unclear",
+        "whole-dataset",
+        "within-fold"
+      ],
+      "n_non_modal_codes": 12,
+      "kappa_defined": true,
+      "stable": true,
+      "note": "estimable"
+    }
+  ],
+  "C_clustering": {
+    "per_dataset": [
+      {
+        "dataset": "MODMA",
+        "n_studies": 5,
+        "n_epoch_level": 3,
+        "n_unclear_any": 3,
+        "ratings": {
+          "likely": 3,
+          "unclear": 1,
+          "possible": 1
+        }
+      },
+      {
+        "dataset": "Mumtaz",
+        "n_studies": 8,
+        "n_epoch_level": 6,
+        "n_unclear_any": 1,
+        "ratings": {
+          "likely": 6,
+          "possible": 1,
+          "free": 1
+        }
+      },
+      {
+        "dataset": "PRED+CT",
+        "n_studies": 2,
+        "n_epoch_level": 0,
+        "n_unclear_any": 0,
+        "ratings": {
+          "free": 1,
+          "unclear": 1
+        }
+      },
+      {
+        "dataset": "other",
+        "n_studies": 1,
+        "n_epoch_level": 0,
+        "n_unclear_any": 0,
+        "ratings": {
+          "unclear": 1
+        }
+      },
+      {
+        "dataset": "private",
+        "n_studies": 2,
+        "n_epoch_level": 0,
+        "n_unclear_any": 0,
+        "ratings": {
+          "likely": 1,
+          "free": 1
+        }
+      }
+    ],
+    "by_cluster": {
+      "dataset": {
+        "n_clusters": 5,
+        "epoch": {
+          "proportion_all_studies": 0.5,
+          "cluster_bootstrap_ci": [
+            0.0,
+            0.6774193548387096
+          ],
+          "one_per_cluster_range": {
+            "n_clusters": 5,
+            "min": 0.0,
+            "max": 0.4
+          }
+        },
+        "unclear_any": {
+          "proportion_all_studies": 0.2222222222222222,
+          "cluster_bootstrap_ci": [
+            0.0,
+            0.47368421052631576
+          ],
+          "one_per_cluster_range": {
+            "n_clusters": 5,
+            "min": 0.0,
+            "max": 0.4
+          }
+        }
+      },
+      "research_group": {
+        "n_clusters": 16,
+        "epoch": {
+          "proportion_all_studies": 0.5,
+          "cluster_bootstrap_ci": [
+            0.25,
+            0.75
+          ],
+          "one_per_cluster_range": {
+            "n_clusters": 16,
+            "min": 0.4375,
+            "max": 0.4375
+          }
+        },
+        "unclear_any": {
+          "proportion_all_studies": 0.2222222222222222,
+          "cluster_bootstrap_ci": [
+            0.05,
+            0.4375
+          ],
+          "one_per_cluster_range": {
+            "n_clusters": 16,
+            "min": 0.25,
+            "max": 0.25
+          }
+        }
+      }
+    }
+  },
+  "D_rq4_exact": {
+    "n_studies": 18,
+    "spearman_rho": -0.5152171404032366,
+    "permutation_p_two_sided": 0.030996900309969003,
+    "n_resamples": 10000,
+    "dichotomised": {
+      "definition": "recent = year >= 2024; incomplete = fewer than 5 of 5 surfaces reported",
+      "n_recent": 6,
+      "n_incomplete": 6,
+      "table_recent_by_incomplete": {
+        "False": {
+          "False": 10,
+          "True": 2
+        },
+        "True": {
+          "False": 2,
+          "True": 4
+        }
+      },
+      "odds_ratio": 10.0,
+      "fisher_p_two_sided": 0.1070351217410041
+    },
+    "firth_logistic": "not run: 18 observations and too few incomplete-reporting events for a penalised regression to be better identified than the exact test above"
+  }
+}

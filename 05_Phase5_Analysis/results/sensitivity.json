@@ -1,0 +1,232 @@
+{
+  "S1_one_per_group": {
+    "n_studies": 16,
+    "dropped_wos_ranks": [
+      86,
+      104
+    ],
+    "strata": [
+      {
+        "rating": "free",
+        "n": 2,
+        "median": 88.89,
+        "q1": 83.33500000000001,
+        "q3": 94.445
+      },
+      {
+        "rating": "possible",
+        "n": 2,
+        "median": 94.68,
+        "q1": 92.87,
+        "q3": 96.49
+      },
+      {
+        "rating": "likely",
+        "n": 8,
+        "median": 98.6525,
+        "q1": 97.035,
+        "q3": 99.395
+      },
+      {
+        "rating": "unclear",
+        "n": 3,
+        "median": 88.64,
+        "q1": 86.985,
+        "q3": 88.83500000000001
+      }
+    ],
+    "likely_vs_free": {
+      "n_likely": 8,
+      "n_free": 2,
+      "mann_whitney_U": 8.0,
+      "p_two_sided": 1.0,
+      "cliffs_delta": 0.0,
+      "cliffs_delta_ci": [
+        -1.0,
+        1.0
+      ],
+      "median_diff_pp": 9.762500000000003,
+      "median_diff_ci": [
+        -2.730000000000004,
+        21.519999999999996
+      ],
+      "within_SESOI_report_null": false
+    },
+    "kruskal_wallis_all_strata": {
+      "H": 3.3000000000000043,
+      "p": 0.34764264473227313,
+      "k_groups": 4
+    }
+  },
+  "S2_all_tasks": {
+    "n_studies": 18,
+    "dropped_wos_ranks": [],
+    "strata": [
+      {
+        "rating": "free",
+        "n": 3,
+        "median": 79.64,
+        "q1": 78.71000000000001,
+        "q3": 89.82
+      },
+      {
+        "rating": "possible",
+        "n": 2,
+        "median": 94.68,
+        "q1": 92.87,
+        "q3": 96.49
+      },
+      {
+        "rating": "likely",
+        "n": 10,
+        "median": 98.6525,
+        "q1": 97.2325,
+        "q3": 99.2975
+      },
+      {
+        "rating": "unclear",
+        "n": 3,
+        "median": 88.64,
+        "q1": 86.985,
+        "q3": 88.83500000000001
+      }
+    ],
+    "likely_vs_free": {
+      "n_likely": 10,
+      "n_free": 3,
+      "mann_whitney_U": 20.0,
+      "p_two_sided": 0.46853146853146854,
+      "cliffs_delta": 0.3333333333333333,
+      "cliffs_delta_ci": [
+        -1.0,
+        1.0
+      ],
+      "median_diff_pp": 19.012500000000003,
+      "median_diff_ci": [
+        -2.7549999999999955,
+        21.515
+      ],
+      "within_SESOI_report_null": false
+    },
+    "kruskal_wallis_all_strata": {
+      "H": 4.336842105263152,
+      "p": 0.22731352397011298,
+      "k_groups": 4
+    }
+  },
+  "S3_drop_weakest": {
+    "n_studies": 16,
+    "dropped_wos_ranks": [
+      49,
+      102
+    ],
+    "strata": [
+      {
+        "rating": "free",
+        "n": 2,
+        "median": 88.89,
+        "q1": 83.33500000000001,
+        "q3": 94.445
+      },
+      {
+        "rating": "possible",
+        "n": 2,
+        "median": 94.68,
+        "q1": 92.87,
+        "q3": 96.49
+      },
+      {
+        "rating": "likely",
+        "n": 9,
+        "median": 98.06,
+        "q1": 97.22,
+        "q3": 99.29
+      },
+      {
+        "rating": "unclear",
+        "n": 2,
+        "median": 86.985,
+        "q1": 86.1575,
+        "q3": 87.8125
+      }
+    ],
+    "likely_vs_free": {
+      "n_likely": 9,
+      "n_free": 2,
+      "mann_whitney_U": 9.0,
+      "p_two_sided": 1.0,
+      "cliffs_delta": 0.0,
+      "cliffs_delta_ci": [
+        -1.0,
+        1.0
+      ],
+      "median_diff_pp": 9.170000000000002,
+      "median_diff_ci": [
+        -2.780000000000001,
+        21.510000000000005
+      ],
+      "within_SESOI_report_null": false
+    },
+    "kruskal_wallis_all_strata": {
+      "H": 2.6055555555555543,
+      "p": 0.4565164185746282,
+      "k_groups": 4
+    }
+  },
+  "S4_rule_a_abstract": {
+    "n_studies": 18,
+    "dropped_wos_ranks": [],
+    "strata": [
+      {
+        "rating": "free",
+        "n": 1,
+        "median": 100.0,
+        "q1": 100.0,
+        "q3": 100.0
+      },
+      {
+        "rating": "possible",
+        "n": 1,
+        "median": 91.06,
+        "q1": 91.06,
+        "q3": 91.06
+      },
+      {
+        "rating": "likely",
+        "n": 7,
+        "median": 97.27,
+        "q1": 96.775,
+        "q3": 99.265
+      },
+      {
+        "rating": "unclear",
+        "n": 2,
+        "median": 87.18,
+        "q1": 86.255,
+        "q3": 88.105
+      }
+    ],
+    "likely_vs_free": {
+      "n_likely": 7,
+      "n_free": 1,
+      "mann_whitney_U": 0.0,
+      "p_two_sided": 0.25,
+      "cliffs_delta": -1.0,
+      "cliffs_delta_ci": [
+        -1.0,
+        -1.0
+      ],
+      "median_diff_pp": -2.730000000000004,
+      "median_diff_ci": [
+        -3.6700000000000017,
+        -0.7099999999999937
+      ],
+      "within_SESOI_report_null": true
+    },
+    "kruskal_wallis_all_strata": {
+      "H": 5.071428571428569,
+      "p": 0.16664089257220954,
+      "k_groups": 4
+    }
+  }
+}

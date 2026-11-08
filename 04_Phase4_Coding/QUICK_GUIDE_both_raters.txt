@@ -1,0 +1,87 @@
+﻿QUICK GUIDE - one page (same rules as the Instructions tab, just shorter)
+========================================================================
+Both raters (Kunal and Leah) use this identical guide.
+
+FOR EACH PAPER
+--------------
+1. Open the PDF named in the pdf_file column.
+2. Find the Methods section (it may be called "Methods", "Experiments" or "Experimental setup").
+3. Answer the 5 yellow dropdowns below, in order. Use Ctrl+F with the search words given.
+4. Paste into evidence_quote the ONE sentence your first answer (split_unit) is based on.
+5. Save. About 10 minutes per paper. If you're stuck on a column for more than a minute, pick "unclear".
+
+
+THE 5 COLUMNS
+-------------
+
+1) split_unit - Were whole PEOPLE kept on one side of the train/test split, or were PIECES shuffled?
+   Search: subject  participant  leave-one  LOSO  split  fold  segment  epoch  sample
+   - The paper says PEOPLE were divided (e.g. "leave-one-subject-out",
+     "subjects were assigned to training or test")                              -> subject
+   - The paper cut recordings into pieces (segments / epochs / windows / samples)
+     and then split or shuffled THE PIECES, with no mention of people            -> epoch
+   - You can't tell (e.g. just "10-fold cross-validation was used")             -> unclear
+
+2) connectivity_scope - Were the connection numbers calculated from each piece or person on its own?
+   Search: connectivity  adjacency  matrix  PLV  PLI  coherence  correlation  average  group
+   - Each matrix is calculated from one piece or one person's own data          -> within-fold
+   - Numbers averaged or pooled ACROSS people, or one matrix built from everyone -> whole-dataset
+   - The paper doesn't say                                                      -> unclear
+
+3) threshold_fit - Did they cut out weak connections?
+   Search: threshold  strongest  top  sparsity  binar  retain  keep  %
+   - No cutting at all                                                          -> none
+   - A fixed cut applied to each matrix on its own ("keep the strongest 30%"),
+     OR the paper says the cut-off was chosen on training data only             -> within-fold
+   - They tried several cut-offs and picked the best on all the data            -> whole-dataset
+   - They cut, but you can't tell how the cut-off was chosen                    -> unclear
+
+4) normalization_fit - Did they rescale the numbers?  (IGNORE "batch normalization" completely)
+   Search: normaliz  standardiz  z-score  scal  min-max
+   - No rescaling mentioned                                                     -> none
+   - Each piece rescaled using only its own values, OR scaling fitted on the
+     training set only                                                          -> within-fold
+   - The whole dataset rescaled together before splitting                       -> whole-dataset
+   - "The features were normalized." and nothing more                           -> unclear
+
+5) selection_fit - Did they pick only some channels or frequency bands?
+   Search: select  best  optimal  channel  electrode  band  significant  p <
+   - Used everything, or chose in advance for a stated reason                   -> none
+   - Paper says the choosing used training data only                            -> within-fold
+   - They compared bands/channels and the BEST one became the main model, or
+     picked features by a statistical test on all the data                      -> whole-dataset
+     (Just reporting a result for each band separately is NOT selection.)
+   - They selected something but you can't tell how                             -> unclear
+
+
+IF THE PAPER TESTS ITS MODEL MORE THAN ONE WAY
+-----------------------------------------------
+Answer for the way behind the accuracy number in the ABSTRACT. Write the other way(s) in notes.
+If the abstract gives NO accuracy number: answer for the way used in the paper's MAIN results table,
+and write the other way(s) in notes. (Provisional rule, same for both raters.)
+
+
+WORKED EXAMPLE (an invented paper, not one of ours)
+---------------------------------------------------
+  "Resting EEG was recorded from 40 patients and 40 healthy volunteers. Each recording was cut into
+   2-second segments. For each segment we computed the phase-locking value between every pair of
+   electrodes, and kept the strongest 20% of connections in each matrix. All features were
+   standardized using the mean and standard deviation of the entire dataset. The segments were
+   randomly split into 80% for training and 20% for testing. The gamma band gave the highest
+   accuracy, so it was used for the final model."
+
+  split_unit          epoch          the PIECES (segments) were split, no mention of people
+  connectivity_scope  within-fold    computed "for each segment"
+  threshold_fit       within-fold    a fixed 20% cut applied to each matrix on its own
+  normalization_fit   whole-dataset  scaled with statistics of the ENTIRE dataset
+  selection_fit       whole-dataset  best band chosen by accuracy became the final model
+  evidence_quote      The segments were randomly split into 80% for training and 20% for testing.
+
+
+THE THREE RULES
+---------------
+1. Work alone. Don't discuss any specific paper with the other rater until you've both finished.
+2. Only what the paper says. No guessing, no looking at their code, no emailing authors.
+3. "Unclear" is a real answer. Most papers don't say. That's what we're measuring.
+
+Questions about what a column MEANS are fine to ask. Questions about a specific paper are not.

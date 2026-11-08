@@ -1,0 +1,6 @@
+{
+  "_comment": "Advisor rulings that change which rows the analysis uses. Edit ONLY to record a ruling, with its date, and log it in 08_Admin/deviations_log.md.",
+  "q20_binary_only_primary": true,
+  "_q20_help": "null = not yet ruled (primary RQ3 uses every task; S2 = binary only, as pre-specified). true = primary RQ3 uses binary depression-vs-control tasks only (task_type.csv) and S2 becomes 'all tasks'. false = all tasks, S2 binary only.",
+  "q20_ruled_on": "ACCEPTED by the advisor 2026-09-27: advisor email of 2026-09-27 01:47 ('I have signed off on the defaults table', REVISION_NOTES.md Decisions table). Provisional from 2026-09-25 (KC's Sep 24 proposal)."
+}

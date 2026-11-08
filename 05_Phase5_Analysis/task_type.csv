@@ -1,0 +1,3 @@
+wos_rank,task_type,evidence
+56,multiclass,"Three-class HC / depression / chronic primary pain; PLI-CNN 79.64% (abstract). Chance level 33%, not 50%"
+55,binary,"Binary only if the recorded accuracy is the ds003474 result (88.64%, questionnaire-defined labels). If KC records the DASS-21 result (34.75%), change this row to multiclass BEFORE running sensitivity.py"

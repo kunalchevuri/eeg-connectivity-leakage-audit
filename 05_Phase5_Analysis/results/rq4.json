@@ -1,0 +1,81 @@
+{
+  "n_studies": 18,
+  "year_trend": {
+    "spearman_rho": -0.5152171404032366,
+    "ci_low": -0.8217550677379081,
+    "ci_high": -0.02075151098350765,
+    "years": [
+      2020,
+      2025
+    ]
+  },
+  "by_year_group": [
+    {
+      "group": "2020-2021",
+      "n": 5,
+      "estimable": true,
+      "median_completeness": 5.0,
+      "prop_split_unit_stated": 0.8,
+      "ci_low": 0.375534627029995,
+      "ci_high": 0.9637758917743693
+    },
+    {
+      "group": "2022-2023",
+      "n": 7,
+      "estimable": true,
+      "median_completeness": 5.0,
+      "prop_split_unit_stated": 1.0,
+      "ci_low": 0.6456695613241317,
+      "ci_high": 1.0
+    },
+    {
+      "group": "2024+",
+      "n": 6,
+      "estimable": true,
+      "median_completeness": 4.0,
+      "prop_split_unit_stated": 0.6666666666666666,
+      "ci_low": 0.29999331299474324,
+      "ci_high": 0.9032285897864654
+    }
+  ],
+  "by_venue_type": [
+    {
+      "group": "journal",
+      "n": 18,
+      "estimable": true,
+      "median_completeness": 5.0,
+      "prop_split_unit_stated": 0.8333333333333334,
+      "ci_low": 0.6077796169796655,
+      "ci_high": 0.9416342323981449
+    }
+  ],
+  "by_architecture_family": [
+    {
+      "group": "CNN-family",
+      "n": 10,
+      "estimable": true,
+      "median_completeness": 5.0,
+      "prop_split_unit_stated": 0.9,
+      "ci_low": 0.5958499704752279,
+      "ci_high": 0.982123787103926
+    },
+    {
+      "group": "GNN-family",
+      "n": 6,
+      "estimable": true,
+      "median_completeness": 5.0,
+      "prop_split_unit_stated": 1.0,
+      "ci_low": 0.6096657083436265,
+      "ci_high": 1.0
+    },
+    {
+      "group": "other",
+      "n": 2,
+      "estimable": false,
+      "median_completeness": null,
+      "prop_split_unit_stated": null,
+      "ci_low": null,
+      "ci_high": null
+    }
+  ]
+}

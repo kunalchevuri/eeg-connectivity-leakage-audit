@@ -1,0 +1,33 @@
+% Section VI - A reporting checklist. Table II items are transcribed VERBATIM from blueprint Sec 11
+% (advisor content). Do not reword or add items; Sec 14: keep to eight, answerable in about ten minutes.
+% Budget: ~220 words of prose plus the table (word_budget_MLESP.md).
+
+% REVIEW 2026-11-07 (8-page limit): the three prose paragraphs condensed into one. No item changed.
+Table~\ref{tab:checklist} lists eight items a connectivity-based study should state, one per leakage surface, each answerable in a sentence; together they let a reader decide from the paper alone whether test information could have reached training, a question \PctUnclearAny\% of the audited studies left open for at least one step. For items 5 to 7 what matters is which data a step was fit on, and the epochs per subject (item 2) show how much a subject-identity shortcut could contribute under epoch-level partitioning. The checklist adds no procedure: a study that already partitions by subject and fits every statistic within the training fold satisfies it with a few sentences. Each item should be answered even when the step was not performed, so a reader can tell an omitted step from an undescribed one---a distinction this audit could not draw (Sections~\ref{sec:methods},~\ref{sec:results}).
+
+% REVIEW 2026-11-07 (R2 W11, Q7): relation to existing reporting guidance.
+% The TRIPOD+AI and CLAIM entries were REMOVED from references.bib: at the 8-page limit their two reference
+% lines were the overflow onto page 9, and blueprint Sec 12 forbids citing a paper no author has opened, which
+% there was no time to do. They are named, not cited; only brookshire2024, already verified, carries a citation.
+General reporting guidance for prediction models and medical-imaging AI---TRIPOD+AI, CLAIM---already asks for the validation scheme and the handling of predictors, and recommendations for EEG decoding ask for subject-level partitioning \cite{brookshire2024}, but none names the statistics specific to a connectivity matrix. Table~\ref{tab:checklist} replaces none of them; it adds that layer.
+
+\begin{table}[t]
+\caption{Reporting checklist for connectivity-based deep learning studies (Gen.\ = generalization)}
+\label{tab:checklist}
+\centering
+\small
+\begin{tabular}{@{}r p{0.70\columnwidth} l@{}}
+\toprule
+\# & A connectivity study should state & Addresses \\
+\midrule
+1 & Whether data were partitioned by subject or by epoch & L1 \\
+2 & The number of subjects and the number of epochs per subject & L1 \\
+3 & Whether connectivity was estimated separately within each training fold & L2 \\
+4 & The window length and overlap used for connectivity estimation & L2 \\
+5 & How any threshold or edge-count parameter was selected, and from which data & L3 \\
+6 & Whether feature normalization statistics were computed on training data only & L4 \\
+7 & Whether channel or band selection used test-set performance & L5 \\
+8 & Whether any external or cross-dataset evaluation was performed & Gen. \\
+\bottomrule
+\end{tabular}
+\end{table}

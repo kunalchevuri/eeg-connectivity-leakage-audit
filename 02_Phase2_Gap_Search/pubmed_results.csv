@@ -1,0 +1,239 @@
+query_no,pmid,year,title,journal,doi
+1,42621085,2026,Interpretable machine-learning for depression classification based on a three-component EEG marker.,Frontiers in computational neuroscience,10.3389/fncom.2026.1869159
+1,42197874,2026,Subject-Wise Depression Screening from Eight-Channel Resting-State EEG Using Asymmetry-Aware Spectral Features and Connectivity Ablation.,"Sensors (Basel, Switzerland)",10.3390/s26103065
+1,42063869,2026,Virtual reality-induced emotion recognition with deep learning-based multimodal physiological feature fusion.,Frontiers in psychology,10.3389/fpsyg.2026.1759471
+1,38204455,2024,Computer-assisted analysis of routine EEG to identify hidden biomarkers of epilepsy: A systematic review.,Computational and structural biotechnology journal,10.1016/j.csbj.2023.12.006
+2,42098663,2026,A multifeature machine learning and resting-state EEG study reveals differences in beta oscillation in late-life depression with or without mild cognitive impairment.,BMC psychiatry,10.1186/s12888-026-08126-6
+2,41449395,2025,"A systematic review of EEG-based biomarkers for depression, anxiety, and bipolar disorder: trends in explainable artificial intelligence (XAI).",BMC psychiatry,10.1186/s12888-025-07589-3
+2,41109421,2026,Neurophysiological mechanisms and predictive modeling of SSRI treatment response in depression disorder based on multidimensional EEG features.,Journal of affective disorders,10.1016/j.jad.2025.120424
+2,40310038,2025,Neurodevelopmental Impact of Maternal Postnatal Depression: A Systematic Review of EEG Biomarkers in Infants.,"Children (Basel, Switzerland)",10.3390/children12040396
+2,24810774,2014,What does the electroencephalogram tell us about the mechanisms of action of ECT in major depressive disorders?,The journal of ECT,10.1097/YCT.0000000000000144
+3,42621085,2026,Interpretable machine-learning for depression classification based on a three-component EEG marker.,Frontiers in computational neuroscience,10.3389/fncom.2026.1869159
+3,41601517,2025,Multidimensional EEG features integration with feature selection strategy for precision diagnosis of depressive disorders.,Frontiers in psychiatry,10.3389/fpsyt.2025.1624997
+3,36641543,2023,Attention-Based Convolutional Recurrent Deep Neural Networks for the Prediction of Response to Repetitive Transcranial Magnetic Stimulation for Major Depressive Disorder.,International journal of neural systems,10.1142/S0129065723500077
+4,42767041,2026,Multimodal neuroimaging in schizophrenia: a systematic review of EEG and fMRI integration.,Psychiatry research. Neuroimaging,10.1016/j.pscychresns.2026.112328
+4,42759098,2026,Brain state-contingent stimulation to probe task-dependent functional networks.,Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology,10.1016/j.clinph.2026.2112406
+4,42713451,2026,Neurophysiological subtyping of schizophrenia reveals a reproducible phenotype with temporoparietal circuit disruptions.,General psychiatry,10.1002/gps3.70047
+4,42710644,2026,"Non-unitary reproducibility of an EEG-DMN-like sensor-level proxy: metric-family, task-window and paradigm effects across internally oriented tasks.",NeuroImage,10.1016/j.neuroimage.2026.122204
+4,42696736,2026,Electroencephalography Functional Network Responses to Immersive Virtual Reality in Alzheimer Disease and Mild Cognitive Impairment: Exploratory Single-Session 3-Group Repeated-Measures Study.,JMIR serious games,10.2196/95160
+4,42686088,2026,Multilevel brain functional heterogeneity in major depressive disorder based on normative modeling of multicenter resting-state EEG.,Progress in neuro-psychopharmacology & biological psychiatry,10.1016/j.pnpbp.2026.111909
+4,42659885,2026,Electrophysiological signatures of visual cortical dysfunction in Parkinson's disease: An integrative EEG-based review.,Neurophysiologie clinique = Clinical neurophysiology,10.1016/j.neucli.2026.103192
+4,42655823,2026,qEEG and Functional Connectivity as a Translational Bridge Between Humans and Dogs in Epilepsy and Associated Disorders: From Spontaneous Model to Automatic Classification-An Integrative Review.,Veterinary sciences,10.3390/vetsci13080803
+4,42617385,2026,Brain network biomarkers for diagnosis and clinical stratification in multiple sclerosis: a longitudinal study integrating individualised structural covariance MRI with high-density EEG.,EBioMedicine,10.1016/j.ebiom.2026.106438
+4,42613983,2026,EEG CONNECT: A proposed reporting checklist for EEG-based connectivity studies in clinical epilepsy research.,Epilepsia open,10.1002/epi4.70343
+4,42598192,2026,Cedalion tutorial: a Python-based framework for comprehensive analysis of multimodal fNIRS and DOT from the lab to the everyday world.,Neurophotonics,10.1117/1.NPh.13.S3.S32602
+4,42571525,2026,Structured multi-domain EEG descriptors with phase-based connectivity for lie and truth detection.,MethodsX,10.1016/j.mex.2026.104077
+4,42526677,2026,Multi-Frequency EEG Connectomics Uncovers Insula-Network Subtypes in Somatic Symptom Disorder.,Biological psychiatry,10.1016/j.biopsych.2026.07.017
+4,42505470,2026,Hybrid Edge-Cloud Asymmetric Analytics for Portable Multimodal BCI Biosensors.,Biosensors,10.3390/bios16070394
+4,42462581,2026,Test-retest reliability of early TMS-evoked potentials over fMRI-based definitions of non-motor targets.,Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology,10.1016/j.clinph.2026.2112327
+4,42415174,2026,The use of quantitative electroencephalography in evaluating epilepsy treatment.,Acta epileptologica,10.1186/s42494-026-00267-1
+4,42406665,2026,Entropy-Based Graph Learning Framework for Cross-Subject Detection of Electrical Status Epilepticus During Sleep (ESES).,IEEE transactions on neural systems and rehabilitation engineering : a publication of the IEEE Engineering in Medicine and Biology Society,10.1109/TNSRE.2026.3710242
+4,42381884,2026,Graded hypergravity is associated with large-scale reorganization of resting-state cortical networks: EEG evidence from a neurological inactivity phenotype.,IBRO neuroscience reports,10.1016/j.ibneur.2026.06.016
+4,42352558,2026,Electrophysiological Changes in Resting-State EEG Following REAC BWO-G_B Neurobiological Modulation in Healthy Adults: A Spectral and Multivariate Exploratory Study.,Brain sciences,10.3390/brainsci16060549
+4,42352109,2026,Large-Scale Synchronization Dynamics During Epileptic Seizures: A Patient-Independent EEG Network Analysis.,"Entropy (Basel, Switzerland)",10.3390/e28060599
+4,42326819,2026,Electrical signatures of divergent connectivity in the human subgenual cingulate cortex.,medRxiv : the preprint server for health sciences,10.64898/2026.06.09.26355288
+4,42309130,2026,Stability and neurophysiological validity of graph connectivity features for non-stationary motor imagery BCIs.,Journal of neural engineering,10.1088/1741-2552/ae7ead
+4,42180559,2026,Reliable resting-state EEG connectivity measures reveal brain network destabilization and cognitive decoupling following prolonged extreme working conditions.,Cognitive neurodynamics,10.1007/s11571-026-10443-1
+4,42157703,2026,Stability-Driven Selection of EEG Connectivity Features for Psychosis Classification: A Network-Based Machine Learning Approach.,CNS neuroscience & therapeutics,10.1002/cns.70943
+4,42144100,2026,Pre-stimulus brain states predict and control variability in stimulation responses.,Brain stimulation,10.1016/j.brs.2026.103118
+4,42115002,2026,Long-Range White-Matter Pathways Enable Efficient Spontaneous Neural Activity Propagation in the Human Brain.,The Journal of neuroscience : the official journal of the Society for Neuroscience,10.1523/JNEUROSCI.0039-26.2026
+4,42066396,2026,Effects of stress on brain activation changes: Recent developments.,Psychoneuroendocrinology,10.1016/j.psyneuen.2026.107868
+4,42058357,2026,Functional Magnetic Resonance Imaging and Electroencephalography in Psychiatric Disease Diagnosis: A Review of New Findings and Comparisons.,Cureus,10.7759/cureus.106048
+4,42055012,2026,Effective correction of extreme capacitive artifacts in TMS-EEG via windowed detrending.,Journal of neural engineering,10.1088/1741-2552/ae668e
+4,41982886,2026,Recurring transient brain-wide co-activation patterns from EEG spatially resembling time-averaged resting-state networks.,"Imaging neuroscience (Cambridge, Mass.)",10.1162/IMAG.a.1202
+4,41964626,2026,Recent Progress and Emerging Perspectives on How Technical Parameters of Transcranial Magnetic Stimulation Shape Cortical Measures Derived from Concurrent Electroencephalography.,Neuromodulation : journal of the International Neuromodulation Society,10.1016/j.neurom.2026.03.004
+4,41938661,2026,Canonical Hidden Markov Model Networks for studying M/EEG.,"Imaging neuroscience (Cambridge, Mass.)",10.1162/IMAG.a.1190
+4,41937954,2026,EEG biomarkers of the sense of embodiment: methodological gaps and evidence-based recommendations from a systematic review.,Frontiers in systems neuroscience,10.3389/fnsys.2026.1756407
+4,41886334,2026,Localizing Target for Transcranial Direct Current Stimulation in Drug-Resistant Epilepsy Using Dynamic EEG Source Network.,IEEE transactions on neural systems and rehabilitation engineering : a publication of the IEEE Engineering in Medicine and Biology Society,10.1109/TNSRE.2026.3677891
+4,41861415,2026,Directional connectivity patterns in SEEG recorded epileptiform transitions in mesial temporal lobe epilepsy.,Journal of neural engineering,10.1088/1741-2552/ae555c
+4,41823051,2026,From brain waves to heartbeats: Exploring the combined role of electroencephalography and heart-rate variability in Alzheimer's disease diagnosis and management.,Journal of Alzheimer's disease : JAD,10.1177/13872877261428636
+4,41805506,2026,Directed Functional Connectivity Based on EEG During Emotional Music Perception for Major Depressive Disorder Analysis and Classification.,IEEE transactions on neural systems and rehabilitation engineering : a publication of the IEEE Engineering in Medicine and Biology Society,10.1109/TNSRE.2026.3672478
+4,41801479,2026,EENet-RLA: An Explainable Prediction Learning Framework for Alzheimer's Disease Classification from EEG Signals.,Brain topography,10.1007/s10548-026-01183-w
+4,41770742,2026,EEG-Pype: An accessible MNE-Python pipeline with graphical user interface for preprocessing and analysis of resting-state electroencephalography data.,PLoS computational biology,10.1371/journal.pcbi.1014043
+4,41743815,2026,Reviewing digital collaborative interactions with multimodal hyperscanning through an ever-growing database.,Frontiers in neuroergonomics,10.3389/fnrgo.2026.1756956
+4,41725855,2026,MSGM: a multi-scale spatiotemporal graph Mamba for EEG emotion recognition.,Frontiers in neuroscience,10.3389/fnins.2026.1665145
+4,41718888,2026,Bridging Neural Topology and Affective Computing: Graph Attention for EEG Emotion Recognition.,Journal of medical systems,10.1007/s10916-026-02345-w
+4,41692284,2026,Standardizing EEG preprocessing for cross-site integration - the CLEAN pipeline.,NeuroImage,10.1016/j.neuroimage.2026.121812
+4,41682987,2026,Mapping Executive Function Performance Based on Resting-State EEG in Healthy Individuals: A Systematic and Mechanistic Review.,Journal of clinical medicine,10.3390/jcm15031306
+4,41542158,2026,Cedalion Tutorial: A Python-based framework for comprehensive analysis of multimodal fNIRS & DOT from the lab to the everyday world.,ArXiv,
+4,41525550,2026,Assessing the Utility of Fronto-Parietal and Cingulo-Opercular Networks in Predicting the Trial Success of Brain-Machine Interfaces for Upper Extremity Stroke Rehabilitation.,IEEE transactions on neural systems and rehabilitation engineering : a publication of the IEEE Engineering in Medicine and Biology Society,10.1109/TNSRE.2026.3653049
+4,41495620,2026,Functional near-infrared spectroscopy: Systematic mapping of abnormal brain function features in neurological disorders.,Neural regeneration research,10.4103/NRR.NRR-D-25-00595
+4,41485554,2026,TI-Toolbox: An open-source software for temporal interference stimulation research.,Brain stimulation,10.1016/j.brs.2025.103016
+4,41460895,2026,Inter-Trial Consistency in Sensorimotor Cortex During Finger-Tapping Movements.,IEEE transactions on neural systems and rehabilitation engineering : a publication of the IEEE Engineering in Medicine and Biology Society,10.1109/TNSRE.2025.3649238
+4,41364191,2026,Comparing signal concordance of needle electrodes and conventional bispectral index sensors in anesthesia monitoring: a prospective pilot study.,Journal of clinical monitoring and computing,10.1007/s10877-025-01389-6
+4,41336803,2025,"A Reliability Study in Resting-state EEG Network Characteristics: Frequency of Interest, Number of Oscillatory Cycles and Thresholding.",Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference,10.1109/EMBC58623.2025.11251614
+4,41336641,2025,Sleep Brain and Cardiac Activity Predict Cognitive Flexibility and Conceptual Reasoning Using Deep Learning().,Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference,10.1109/EMBC58623.2025.11252806
+4,41324025,2025,Switch-Off response to mid-cingulate cortex stimulation: a video case report.,Clinical neurophysiology practice,10.1016/j.cnp.2025.10.008
+4,41306659,2025,Reproducibility of temporally evolving seizure patterns and network connectivity in focal epilepsy.,Frontiers in neurology,10.3389/fneur.2025.1617317
+4,41295969,2026,Mapping white matter tracts with SEEG electrodes.,Epilepsia,10.1111/epi.70038
+4,41279908,2025,TI-Toolbox: An Open-Source Software for Temporal Interference Stimulation Research.,bioRxiv : the preprint server for biology,10.1101/2025.10.06.680781
+4,41259275,2026,Radiofrequency Thermocoagulation Lesion Characteristics Using the Cross-Bonding Stereoelectroencephalography Electrode Technique in an in vitro Model.,Stereotactic and functional neurosurgery,10.1159/000548518
+4,41188471,2025,"Reliability and state-dependency of EEG connectivity, complexity and network characteristics.",Scientific reports,10.1038/s41598-025-23662-z
+4,41124649,2025,Multitask Language Mapping to Visualize the Spatial Configuration of Polyfunctional Language Cortex.,Neurology,10.1212/WNL.0000000000214256
+4,41062281,2025,"Functional Connectivity Is Dominated by Aperiodic, Rather Than Oscillatory, Coupling.",The Journal of neuroscience : the official journal of the Society for Neuroscience,10.1523/JNEUROSCI.1041-25.2025
+4,40924526,2025,Resting-State EEG Functional Connectivity for Brain Function Analysis and Severity Classification in Obstructive Sleep Apnea.,IEEE transactions on neural systems and rehabilitation engineering : a publication of the IEEE Engineering in Medicine and Biology Society,10.1109/TNSRE.2025.3607776
+4,40806977,2025,Neural Correlates of Burnout Syndrome Based on Electroencephalography (EEG)-A Mechanistic Review and Discussion of Burnout Syndrome Cognitive Bias Theory.,Journal of clinical medicine,10.3390/jcm14155357
+4,40800913,2025,Multimodal state-dependent connectivity analysis of arousal and autonomic centers in the brainstem and basal forebrain.,"Imaging neuroscience (Cambridge, Mass.)",10.1162/IMAG.a.91
+4,40725699,2025,Neural Correlates of Huntington's Disease Based on Electroencephalography (EEG): A Mechanistic Review and Discussion of Excitation and Inhibition (E/I) Imbalance.,Journal of clinical medicine,10.3390/jcm14145010
+4,40697102,2025,An explainable RSPWVD based EEG microstate sequence approach for scalp connectivity estimation and channel selection in patients with epilepsy.,Technology and health care : official journal of the European Society for Engineering and Medicine,10.1177/09287329251356661
+4,40587429,2025,Neuroimaging-Guided TMS-EEG for Real-Time Cortical Network Mapping.,Journal of visualized experiments : JoVE,10.3791/67339
+4,40587349,2025,Neuropathic Pain Detection: An EEG-Based Brain Functional Network Approach.,IEEE transactions on neural systems and rehabilitation engineering : a publication of the IEEE Engineering in Medicine and Biology Society,10.1109/TNSRE.2025.3584394
+4,40376927,2025,Classification of internet addiction using machine learning on electroencephalography synchronization and functional connectivity.,Psychological medicine,10.1017/S0033291725001035
+4,40369848,2025,Stimulus-Induced Gamma Sources Reduce in Power but Not in Spatial Extent With Healthy Aging in Human EEG.,The European journal of neuroscience,10.1111/ejn.70138
+4,40354212,2025,Connectivity Analysis of Hypsarrhythmia-EEG for Infants With West Syndrome.,IEEE transactions on neural systems and rehabilitation engineering : a publication of the IEEE Engineering in Medicine and Biology Society,10.1109/TNSRE.2025.3569226
+4,40315092,2025,Age-Related Changes in Action Observation EEG Response and Its Effect on BCI Performance.,IEEE transactions on neural systems and rehabilitation engineering : a publication of the IEEE Engineering in Medicine and Biology Society,10.1109/TNSRE.2025.3566371
+4,40173407,2025,"Integrating virtual reality, electroencephalography, and transcranial magnetic stimulation to study the neural correlates of awe experiences: The SUBRAIN protocol.",PloS one,10.1371/journal.pone.0302762
+4,40070442,2025,Theta and alpha connectivity in children with autism spectrum disorder.,Brain communications,10.1093/braincomms/fcaf084
+4,40054759,2025,Resting-state EEG network variability predicts individual working memory behavior.,NeuroImage,10.1016/j.neuroimage.2025.121120
+4,39962835,2025,Autism Spectrum Disorder Detection Using Prominent Connectivity Features from Electroencephalography.,International journal of neural systems,10.1142/S012906572550011X
+4,39952481,2025,ER-detect: A pipeline for robust detection of early evoked responses in BIDS-iEEG electrical stimulation data.,Journal of neuroscience methods,10.1016/j.jneumeth.2025.110389
+4,39850414,2025,Abnormal dynamic features of cortical microstates for detecting early-stage Parkinson's disease by resting-state electroencephalography: Systematic analysis of the influence of eye condition.,Heliyon,10.1016/j.heliyon.2024.e41500
+4,39735505,2024,FAST functional connectivity implicates P300 connectivity in working memory deficits in Alzheimer's disease.,"Network neuroscience (Cambridge, Mass.)",10.1162/netn_a_00411
+4,39605337,2024,Multimodal state-dependent connectivity analysis of arousal and autonomic centers in the brainstem and basal forebrain.,bioRxiv : the preprint server for biology,10.1101/2024.11.11.623092
+4,39455733,2024,Model selection to achieve reproducible associations between resting state EEG features and autism.,Scientific reports,10.1038/s41598-024-76659-5
+4,39405153,2024,Deep Optimized Broad Learning System for Applications in Tabular Data Recognition.,IEEE transactions on cybernetics,10.1109/TCYB.2024.3473809
+4,39370736,2024,Variability of cortico-cortical evoked potentials in the epileptogenic zone is related to seizure occurrence.,Annals of clinical and translational neurology,10.1002/acn3.52179
+4,39302782,2024,Detection of Low Resilience Using Data-Driven Effective Connectivity Measures.,IEEE transactions on neural systems and rehabilitation engineering : a publication of the IEEE Engineering in Medicine and Biology Society,10.1109/TNSRE.2024.3465269
+4,39265614,2024,Sensorimotor brain-computer interface performance depends on signal-to-noise ratio but not connectivity of the mu rhythm in a multiverse analysis of longitudinal data.,Journal of neural engineering,10.1088/1741-2552/ad7a24
+4,39049042,2024,Development of a prediction model of conversion to Alzheimer's disease in people with mild cognitive impairment: the statistical analysis plan of the INTERCEPTOR project.,Diagnostic and prognostic research,10.1186/s41512-024-00172-6
+4,39045050,2024,Neural effects of dopaminergic compounds revealed by multi-site electrophysiology and interpretable machine-learning.,Frontiers in pharmacology,10.3389/fphar.2024.1412725
+4,38986463,2024,Permutation conditional mutual information to quantify TMS-evoked cortical connectivity in disorders of consciousness.,Journal of neural engineering,10.1088/1741-2552/ad618b
+4,38825981,2024,The effects of spatial leakage correction on the reliability of EEG-based functional connectivity networks.,Human brain mapping,10.1002/hbm.26747
+4,38722721,2024,Identification of Optimal and Most Significant Event Related Brain Functional Network.,IEEE transactions on neural systems and rehabilitation engineering : a publication of the IEEE Engineering in Medicine and Biology Society,10.1109/TNSRE.2024.3399308
+4,38717876,2024,Neurovascular Coupling Analysis Based on Multivariate Variational Gaussian Process Convergent Cross-Mapping.,IEEE transactions on neural systems and rehabilitation engineering : a publication of the IEEE Engineering in Medicine and Biology Society,10.1109/TNSRE.2024.3398662
+4,38651629,2024,Functionally annotated electrophysiological neuromarkers of healthy ageing and memory function.,Human brain mapping,10.1002/hbm.26687
+4,38570038,2024,"Spectral signatures of psilocybin, lysergic acid diethylamide (LSD) and ketamine in healthy volunteers and persons with major depressive disorder and treatment-resistant depression: A systematic review.",Journal of affective disorders,10.1016/j.jad.2024.03.165
+4,38531248,2024,Analysis of EEG microstates as biomarkers in neuropsychological processes - Review.,Computers in biology and medicine,10.1016/j.compbiomed.2024.108266
+4,40800449,2024,Previous motor task performance impacts phase-based EEG resting-state connectivity states.,"Imaging neuroscience (Cambridge, Mass.)",10.1162/imag_a_00109
+4,38463502,2025,FAST functional connectivity implicates P300 connectivity in working memory deficits in Alzheimer's disease.,ArXiv,
+4,38433651,2024,How well do neural signatures of resting-state EEG detect consciousness? A large-scale clinical study.,Human brain mapping,10.1002/hbm.26586
+4,38292021,2024,No change in network connectivity measurements between separate rsfMRI acquisition times.,Frontiers in network physiology,10.3389/fnetp.2024.1342161
+4,38260687,2024,ER-detect: a pipeline for robust detection of early evoked responses in BIDS-iEEG electrical stimulation data.,bioRxiv : the preprint server for biology,10.1101/2024.01.09.574915
+4,38231809,2024,Subject-Specific Modeling of EEG-fNIRS Neurovascular Coupling by Task-Related Tensor Decomposition.,IEEE transactions on neural systems and rehabilitation engineering : a publication of the IEEE Engineering in Medicine and Biology Society,10.1109/TNSRE.2024.3355121
+4,38231808,2024,Seizure Pathways Changes at the Subject-Specific Level via Dynamic Step Effective Network Analysis.,IEEE transactions on neural systems and rehabilitation engineering : a publication of the IEEE Engineering in Medicine and Biology Society,10.1109/TNSRE.2024.3355045
+4,38114050,2024,Reproducible network changes occur in a mouse model of temporal lobe epilepsy but do not correlate with disease severity.,Neurobiology of disease,10.1016/j.nbd.2023.106382
+4,38082675,2023,Dynamic cortical connectivity alterations associated with Major Depressive Disorder: an EEG study.,Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference,10.1109/EMBC40787.2023.10340859
+4,38066046,2023,Enhancing autism spectrum disorder classification in children through the integration of traditional statistics and classical machine learning techniques in EEG analysis.,Scientific reports,10.1038/s41598-023-49048-7
+4,37996562,2024,Evoked EEG Responses to TMS Targeting Regions Outside the Primary Motor Cortex and Their Test-Retest Reliability.,Brain topography,10.1007/s10548-023-01018-y
+4,37860930,2023,Band-Specific Altered Cortical Connectivity in Early Parkinson's Disease and its Clinical Correlates.,Movement disorders : official journal of the Movement Disorder Society,10.1002/mds.29615
+4,37696851,2023,"DISCOVER-EEG: an open, fully automated EEG pipeline for biomarker discovery in clinical neuroscience.",Scientific data,10.1038/s41597-023-02525-0
+4,37496373,2024,Novel methodology for detection and prediction of mild cognitive impairment using resting-state EEG.,Alzheimer's & dementia : the journal of the Alzheimer's Association,10.1002/alz.13411
+4,37244323,2023,"Neurochemistry-enriched dynamic causal models of magnetoencephalography, using magnetic resonance spectroscopy.",NeuroImage,10.1016/j.neuroimage.2023.120193
+4,37169118,2023,"Stability, change, and reliable individual differences in electroencephalography measures: A lifespan perspective on progress and opportunities.",NeuroImage,10.1016/j.neuroimage.2023.120116
+4,37097790,2023,Clustering-Fusion Feature Selection Method in Identifying Major Depressive Disorder Based on Resting State EEG Signals.,IEEE journal of biomedical and health informatics,10.1109/JBHI.2023.3269814
+4,37095180,2023,"Within-subject reproducibility varies in multi-modal, longitudinal brain networks.",Scientific reports,10.1038/s41598-023-33441-3
+4,36914106,2023,"Effect of channel density, inverse solutions and connectivity measures on EEG resting-state networks reconstruction: A simulation study.",NeuroImage,10.1016/j.neuroimage.2023.120006
+4,36894751,2023,Test-retest reliability of resting-state EEG in young and older adults.,Psychophysiology,10.1111/psyp.14268
+4,36894435,2023,Reliability and Validity of Transcranial Magnetic Stimulation-Electroencephalography Biomarkers.,Biological psychiatry. Cognitive neuroscience and neuroimaging,10.1016/j.bpsc.2022.12.005
+4,36841423,2023,Source space connectomics of neurodegeneration: One-metric approach does not fit all.,Neurobiology of disease,10.1016/j.nbd.2023.106047
+4,36828303,2023,TMS combined with EEG: Recommendations and open issues for data collection and analysis.,Brain stimulation,10.1016/j.brs.2023.02.009
+4,36789500,2023,Non-invasive mapping of epileptogenic networks predicts surgical outcome.,Brain : a journal of neurology,10.1093/brain/awac477
+4,36693292,2023,MEDUSA©: A novel Python-based software ecosystem to accelerate brain-computer interface and cognitive neuroscience research.,Computer methods and programs in biomedicine,10.1016/j.cmpb.2023.107357
+4,36621368,2023,Brain connectomics: time for a molecular imaging perspective?,Trends in cognitive sciences,10.1016/j.tics.2022.11.015
+4,36520342,2023,Variability of Single Pulse Electrical Stimulation Responses Recorded with Intracranial Electroencephalography in Epileptic Patients.,Brain topography,10.1007/s10548-022-00928-7
+4,36289690,2022,EEG Markers of Treatment Resistance in Idiopathic Generalized Epilepsy: From Standard EEG Findings to Advanced Signal Analysis.,Biomedicines,10.3390/biomedicines10102428
+4,36210993,2022,A Novel Method Based on ERP and Brain Graph for the Simultaneous Assessment of Various Types of Attention.,Computational intelligence and neuroscience,10.1155/2022/6318916
+4,36099220,2024,GCNs-Net: A Graph Convolutional Neural Network Approach for Decoding Time-Resolved EEG Motor Imagery Signals.,IEEE transactions on neural networks and learning systems,10.1109/TNNLS.2022.3202569
+4,36041420,2022,A thresholding method based on society modularity and role division for functional connectivity analysis.,Journal of neural engineering,10.1088/1741-2552/ac8dc3
+4,35961967,2022,Predicting treatment response using EEG in major depressive disorder: A machine-learning meta-analysis.,Translational psychiatry,10.1038/s41398-022-02064-z
+4,35934208,2022,Reorganizations of latency structures within the white matter from wakefulness to sleep.,Magnetic resonance imaging,10.1016/j.mri.2022.08.005
+4,35890842,2022,Dynamic Connectivity Analysis Using Adaptive Window Size.,"Sensors (Basel, Switzerland)",10.3390/s22145162
+4,35770780,2022,Déjà-vu evoked by electrical stimulation of the insula.,Epileptic disorders : international epilepsy journal with videotape,10.1684/epd.2022.1433
+4,35734582,2022,Non-invasive brain stimulation and neuroenhancement.,Clinical neurophysiology practice,10.1016/j.cnp.2022.05.002
+4,37401785,2022,Déjà-vu evoked by electrical stimulation of the insula: Stimulation-induced insular déjà-vu.,Epileptic disorders : international epilepsy journal with videotape,10.1684/epd.2022.1433
+4,35585637,2022,Resting state EEG power spectrum and functional connectivity in autism: a cross-sectional analysis.,Molecular autism,10.1186/s13229-022-00500-x
+4,35496264,2022,Neural Activity Correlates With Behavior Effects of Anti-Seizure Drugs Efficacy Using the Zebrafish Pentylenetetrazol Seizure Model.,Frontiers in pharmacology,10.3389/fphar.2022.836573
+4,35478408,2022,A systematic data-driven approach to analyze sensor-level EEG connectivity: Identifying robust phase-synchronized network components using surface Laplacian with spectral-spatial PCA.,Psychophysiology,10.1111/psyp.14080
+4,35312050,2022,Time-frequency dynamics of error monitoring in childhood: An EEG study.,Developmental psychobiology,10.1002/dev.22215
+4,35312046,2022,Electroencephalogram aperiodic power spectral slope can be reliably measured and predicts ADHD risk in early development.,Developmental psychobiology,10.1002/dev.22228
+4,35147515,2022,Looking through the windows: a study about the dependency of phase-coupling estimates on the data length.,Journal of neural engineering,10.1088/1741-2552/ac542f
+4,35143852,2022,Designing and comparing cleaning pipelines for TMS-EEG data: A theoretical overview and practical example.,Journal of neuroscience methods,10.1016/j.jneumeth.2022.109494
+4,34891320,2021,Mapping Functional Connectivity of Epileptogenic Networks through Virtual Implantation.,Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference,10.1109/EMBC46164.2021.9629686
+4,34889128,2023,Association Study Between White Matter Microstructure and Intelligence Decline in Schizophrenia.,Clinical EEG and neuroscience,10.1177/15500594211063314
+4,34845265,2021,Connectivity modulations induced by reach&grasp movements: a multidimensional approach.,Scientific reports,10.1038/s41598-021-02458-x
+4,34826504,2022,Functional connectivity using high density EEG shows competitive reliability and agreement across test/retest sessions.,Journal of neuroscience methods,10.1016/j.jneumeth.2021.109424
+4,34822945,2022,Automated sleep state classification of wide-field calcium imaging data via multiplex visibility graphs and deep learning.,Journal of neuroscience methods,10.1016/j.jneumeth.2021.109421
+4,34799873,2022,Phase-dependent local brain states determine the impact of image-guided transcranial magnetic stimulation on motor network electroencephalographic synchronization.,The Journal of physiology,10.1113/JP282393
+4,34791079,2022,Resting-state EEG reveals four subphenotypes of amyotrophic lateral sclerosis.,Brain : a journal of neurology,10.1093/brain/awab322
+4,34675312,2021,EEG-derived brain graphs are reliable measures for exploring exercise-induced changes in brain networks.,Scientific reports,10.1038/s41598-021-00371-x
+4,34495825,2022,A Deep Neural Network for SSVEP-Based Brain-Computer Interfaces.,IEEE transactions on bio-medical engineering,10.1109/TBME.2021.3110440
+4,34340343,2021,Relationship between mutual information and cross-correlation time scale of observability as measures of connectivity strength.,"Chaos (Woodbury, N.Y.)",10.1063/5.0053857
+4,34284241,2021,Highly consistent temporal lobe interictal spike networks revealed from foramen ovale electrodes.,Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology,10.1016/j.clinph.2021.06.013
+4,34144161,2021,The impact of artifact removal approaches on TMS-EEG signal.,NeuroImage,10.1016/j.neuroimage.2021.118272
+4,34092648,2021,Contribution of Graph Theory Applied to EEG Data Analysis for Alzheimer's Disease Versus Vascular Dementia Diagnosis.,Journal of Alzheimer's disease : JAD,10.3233/JAD-210394
+4,33930392,2021,Mapping region-specific seizure-like patterns in the in vitro isolated guinea pig brain.,Experimental neurology,10.1016/j.expneurol.2021.113727
+4,33899422,2021,[Convolutional neural network based on temporal-spatial feature learning for motor imagery electroencephalogram signal decoding].,Sheng wu yi xue gong cheng xue za zhi = Journal of biomedical engineering = Shengwu yixue gongchengxue zazhi,10.7507/1001-5515.202007006
+4,33797981,2022,Human Brain Networks in Physiological and Pathological Aging: Reproducibility of Electroencephalogram Graph Theoretical Analysis in Cortical Connectivity.,Brain connectivity,10.1089/brain.2020.0824
+4,33657902,2022,Evaluating Effective Connectivity of Trust in Human-Automation Interaction: A Dynamic Causal Modeling (DCM) Study.,Human factors,10.1177/0018720820987443
+4,33596194,2021,Data-driven method to infer the seizure propagation patterns in an epileptic brain from intracranial electroencephalography.,PLoS computational biology,10.1371/journal.pcbi.1008689
+4,33592241,2021,The relationship between EEG and fMRI connectomes is reproducible across simultaneous EEG-fMRI studies from 1.5T to 7T.,NeuroImage,10.1016/j.neuroimage.2021.117864
+4,33588105,2021,Cortical responses to noninvasive perturbations enable individual brain fingerprinting.,Brain stimulation,10.1016/j.brs.2021.02.005
+4,33549638,2021,Single-pulse electrical stimulation methodology in freely moving rat.,Journal of neuroscience methods,10.1016/j.jneumeth.2021.109092
+4,33506384,2021,Automated Head Tissue Modelling Based on Structural Magnetic Resonance Images for Electroencephalographic Source Reconstruction.,Neuroinformatics,10.1007/s12021-020-09504-5
+4,33380013,2020,Benchmarking metrics for inferring functional connectivity from multi-channel EEG and MEG: A simulation study.,"Chaos (Woodbury, N.Y.)",10.1063/5.0018826
+4,33362688,2020,Semi-automatic Extraction of Functional Dynamic Networks Describing Patient's Epileptic Seizures.,Frontiers in neurology,10.3389/fneur.2020.579725
+4,33286988,2020,Approximate Entropy of Brain Network in the Study of Hemispheric Differences.,"Entropy (Basel, Switzerland)",10.3390/e22111220
+4,33248432,2021,Measuring the effects of first antiepileptic medication in Temporal Lobe Epilepsy: Predictive value of quantitative-EEG analysis.,Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology,10.1016/j.clinph.2020.10.020
+4,33164816,2021,"Reproducibility of power spectrum, functional connectivity and network construction in resting-state EEG.",Journal of neuroscience methods,10.1016/j.jneumeth.2020.108985
+4,33018625,2020,A Multi-view CNN with Novel Variance Layer for Motor Imagery Brain Computer Interface.,Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference,10.1109/EMBC44109.2020.9175874
+4,32991590,2020,Dynamical mesoscale model of absence seizures in genetic models.,PloS one,10.1371/journal.pone.0239125
+4,32939091,2020,Deep posteromedial cortical rhythm in dissociation.,Nature,10.1038/s41586-020-2731-9
+4,32787546,2021,Laterality 2020: entering the next decade.,Laterality,10.1080/1357650X.2020.1804396
+4,32737823,2021,Reliability and availability of granger causality density in localization of Rolandic focus in BECTS.,Brain imaging and behavior,10.1007/s11682-020-00352-0
+4,32728099,2020,Using multiple short epochs optimises the stability of infant EEG connectivity parameters.,Scientific reports,10.1038/s41598-020-68981-5
+4,32719969,2021,Changes in functional connectivity after theta-burst transcranial magnetic stimulation for post-traumatic stress disorder: a machine-learning study.,European archives of psychiatry and clinical neuroscience,10.1007/s00406-020-01172-5
+4,32683566,2020,Pearl and pitfalls in brain functional analysis by event-related potentials: a narrative review by the Italian Psychophysiology and Cognitive Neuroscience Society on methodological limits and clinical reliability-part II.,Neurological sciences : official journal of the Italian Neurological Society and of the Italian Society of Clinical Neurophysiology,10.1007/s10072-020-04527-x
+4,32662039,2020,Convolutional neural networks and genetic algorithm for visual imagery classification.,Physical and engineering sciences in medicine,10.1007/s13246-020-00894-z
+4,32641706,2020,Cerebellar transcranial alternating current stimulation in the gamma range applied during the acquisition of a novel motor skill.,Scientific reports,10.1038/s41598-020-68028-9
+4,32640373,2020,Intracranial-EEG evidence for medial temporal pole driving amygdala activity induced by multi-modal emotional stimuli.,Cortex; a journal devoted to the study of the nervous system and behavior,10.1016/j.cortex.2020.05.018
+4,32565224,2020,EEG signal varies with different outcomes in comatose patients: A quantitative method of electroencephalography reactivity.,Journal of neuroscience methods,10.1016/j.jneumeth.2020.108812
+4,32554357,2020,Spike-associated networks and intracranial electrographic findings.,Epileptic disorders : international epilepsy journal with videotape,10.1684/epd.2020.1163
+4,32522662,2020,NeuroPycon: An open-source python toolbox for fast multi-modal and reproducible brain connectivity pipelines.,NeuroImage,10.1016/j.neuroimage.2020.117020
+4,32499887,2020,Thirty years of translational research in Mobility Medicine: Collection of abstracts of the 2020 Padua Muscle Days.,European journal of translational myology,10.4081/ejtm.2019.8826
+4,32493476,2020,Reproducibility of EEG functional connectivity in Alzheimer's disease.,Alzheimer's research & therapy,10.1186/s13195-020-00632-3
+4,32492509,2020,"Functional connectivity of EEG is subject-specific, associated with phenotype, and different from fMRI.",NeuroImage,10.1016/j.neuroimage.2020.117001
+4,32359218,2020,Tablet-based electroencephalography diagnostics for patients with epilepsy in the West African Republic of Guinea.,European journal of neurology,10.1111/ene.14291
+4,32170641,2020,Human brain networks: a graph theoretical analysis of cortical connectivity normative database from EEG data in healthy elderly subjects.,GeroScience,10.1007/s11357-020-00176-2
+4,32047606,2020,Objective Pain Assessment: a Key for the Management of Chronic Pain.,F1000Research,10.12688/f1000research.20441.1
+4,31969657,2020,Concurrent human TMS-EEG-fMRI enables monitoring of oscillatory brain state-dependent gating of cortico-subcortical network activity.,Communications biology,10.1038/s42003-020-0764-0
+4,31835208,2020,Interview based connectivity analysis of EEG in order to detect deception.,Medical hypotheses,10.1016/j.mehy.2019.109517
+4,31816147,2020,Weighted network measures reveal differences between dementia types: An EEG study.,Human brain mapping,10.1002/hbm.24896
+4,31759193,2020,In pursuit of a sensitive EEG functional connectivity outcome measure for clinical trials in Alzheimer's disease.,Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology,10.1016/j.clinph.2019.09.014
+4,31706785,2020,Reduced parietal alpha power and psychotic symptoms: Test-retest reliability of resting-state magnetoencephalography in schizophrenia and healthy controls.,Schizophrenia research,10.1016/j.schres.2019.10.023
+4,31625670,2020,Linear and nonlinear interrelations show fundamentally distinct network structure in preictal intracranial EEG of epilepsy patients.,Human brain mapping,10.1002/hbm.24816
+4,31551761,2019,Introducing a Novel Approach for Evaluation and Monitoring of Brain Health Across Life Span Using Direct Non-invasive Brain Network Electrophysiology.,Frontiers in aging neuroscience,10.3389/fnagi.2019.00248
+4,31356455,2019,Brain dysfunction in chronic pain patients assessed by resting-state electroencephalography.,Pain,10.1097/j.pain.0000000000001666
+4,31329123,2019,Mental Workload Drives Different Reorganizations of Functional Cortical Connectivity Between 2D and 3D Simulated Flight Experiments.,IEEE transactions on neural systems and rehabilitation engineering : a publication of the IEEE Engineering in Medicine and Biology Society,10.1109/TNSRE.2019.2930082
+4,31115272,2019,Reliability of Magnetoencephalography and High-Density Electroencephalography Resting-State Functional Connectivity Metrics.,Brain connectivity,10.1089/brain.2019.0662
+4,31076256,2019,Harmonization of the pipeline for seizure detection to phenotype post-traumatic epilepsy in a preclinical multicenter study on post-traumatic epileptogenesis.,Epilepsy research,10.1016/j.eplepsyres.2019.04.011
+4,31034417,2019,Spectral and Temporal Feature Learning With Two-Stream Neural Networks for Mental Workload Assessment.,IEEE transactions on neural systems and rehabilitation engineering : a publication of the IEEE Engineering in Medicine and Biology Society,10.1109/TNSRE.2019.2913400
+4,31002014,2019,Spontaneous Variation in Electrocorticographic Resting-State Connectivity.,Brain connectivity,10.1089/brain.2018.0596
+4,30992474,2019,BrainNet: A Multi-Person Brain-to-Brain Interface for Direct Collaboration Between Brains.,Scientific reports,10.1038/s41598-019-41895-7
+4,30946055,2019,Dynamic Cortical Connectivity during General Anesthesia in Healthy Volunteers.,Anesthesiology,10.1097/ALN.0000000000002656
+4,30912271,2019,Test-retest reliability of EEG network characteristics in infants.,Brain and behavior,10.1002/brb3.1269
+5,39059681,2024,Adaptive node feature extraction in graph-based neural networks for brain diseases diagnosis using self-supervised learning.,NeuroImage,10.1016/j.neuroimage.2024.120750
+6,40205687,2026,EEG-based multi-band functional connectivity using corrected amplitude envelope correlation for identifying unfavorable driving states.,Computer methods in biomechanics and biomedical engineering,10.1080/10255842.2025.2488502
+7,42742790,2026,A Neuroinformatics Framework for Evaluating Functional Connectivity Metrics in Small-Sample Resting-State fMRI: An Age-Stratified Autism Study.,Neuroinformatics,10.1007/s12021-026-09816-y
+7,42632582,2026,Machine Learning-Based Discrimination of Treatment-Resistant Schizophrenia Using Structural Brain Imaging: A Multi-Site Proof-of-Concept Study.,Biological psychiatry,10.1016/j.biopsych.2026.08.009
+7,42570963,2026,Evaluating clinical and neuroimaging predictors for cognitive-behavioral therapy outcome in obsessive-compulsive disorder.,Scientific reports,10.1038/s41598-026-64405-y
+7,42317952,2026,Artificial Intelligence Applied to the Brain-Gut Axis in Irritable Bowel Syndrome: Advancing Toward Clinical Translation.,Cureus,10.7759/cureus.109142
+7,42189256,2026,'Man vs. Machine: can ML algorithms diagnose headaches as accurately as clinicians? A systematic review.'.,Journal of neurology,10.1007/s00415-026-13853-7
+7,42123173,2026,Are AI Neuroimaging Models Ready for Clinical Use? A Systematic Methodological Review.,Journal of clinical medicine,10.3390/jcm15093441
+7,40892131,2025,Overcoming Site Variability in Multisite fMRI Studies: an Autoencoder Framework for Enhanced Generalizability of Machine Learning Models.,Neuroinformatics,10.1007/s12021-025-09746-1
+7,40034356,2024,MRI-based mild cognitive impairment and Alzheimer's disease classification using an algorithm of combination of variational autoencoder and other machine learning classifiers.,Journal of Alzheimer's disease reports,10.1177/25424823241290694
+7,38418819,2024,Data leakage inflates prediction performance in connectome-based machine learning models.,Nature communications,10.1038/s41467-024-46150-w
+7,38234740,2023,The effects of data leakage on connectome-based machine learning models.,bioRxiv : the preprint server for biology,10.1101/2023.06.09.544383
+7,38212349,2024,Multi-site benchmark classification of major depressive disorder using machine learning on cortical and subcortical measures.,Scientific reports,10.1038/s41598-023-47934-8
+7,38006422,2023,Effect of data harmonization of multicentric dataset in ASD/TD classification.,Brain informatics,10.1186/s40708-023-00210-x
+7,37789047,2023,Risk of data leakage in estimating the diagnostic performance of a deep-learning-based computer-aided system for psychiatric disorders.,Scientific reports,10.1038/s41598-023-43542-8
+7,36814932,2023,Conventional machine learning and deep learning in Alzheimer's disease diagnosis using neuroimaging: A review.,Frontiers in computational neuroscience,10.3389/fncom.2023.1038636
+7,36590098,2022,Ensemble learning using traditional machine learning and deep neural network for diagnosis of Alzheimer's disease.,IBRO neuroscience reports,10.1016/j.ibneur.2022.08.010
+7,35483271,2022,ClinicaDL: An open-source deep learning software for reproducible neuroimaging processing.,Computer methods and programs in biomedicine,10.1016/j.cmpb.2022.106818
+7,35398507,2022,A Single Model Deep Learning Approach for Alzheimer's Disease Diagnosis.,Neuroscience,10.1016/j.neuroscience.2022.03.026
+7,34799630,2021,Effect of data leakage in brain MRI classification using 2D convolutional neural networks.,Scientific reports,10.1038/s41598-021-01681-w
+7,32842937,2021,Diagnosis of Alzheimer's Disease Based on Deeply-Fused Nets.,Combinatorial chemistry & high throughput screening,10.2174/1386207323666200825092649
+7,32417716,2020,Convolutional neural networks for classification of Alzheimer's disease: Overview and reproducible evaluation.,Medical image analysis,10.1016/j.media.2020.101694
+8,41422967,2026,Parietal alpha asymmetry as a diagnostic marker for depression and a predictive biomarker for anhedonia improvement after melatonergic antidepressant treatment.,Journal of affective disorders,10.1016/j.jad.2025.120977
+8,37963517,2024,"Diagnostic deep learning algorithms that use resting EEG to distinguish major depressive disorder, bipolar disorder, and schizophrenia from each other and from healthy volunteers.",Journal of affective disorders,10.1016/j.jad.2023.11.017
+8,36341804,2023,Electroencephalography for predicting antidepressant treatment success: A systematic review and meta-analysis.,Journal of affective disorders,10.1016/j.jad.2022.10.042
+8,9110102,1997,Identifying an abnormal electroencephalographic sleep profile to characterize major depressive disorder.,Biological psychiatry,10.1016/S0006-3223(96)00259-4

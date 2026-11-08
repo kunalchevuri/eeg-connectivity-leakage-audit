@@ -1,0 +1,16 @@
+stage,count,notes
+WoS records identified (original search),not yet recovered,query string/date/hit count needed for Section IV-A and Fig 1 - advisor question 11
+WoS: records screened (top-100 set),100,
+WoS: excluded at title/abstract,53,other (not depression classification/severity): 30; classical ML only / no DL classifier: 6; other (pre-2015 or not peer-reviewed): 5; review/survey: 5; other (not EEG primary): 4; no connectivity step: 3
+WoS: reports sought for retrieval,47,
+WoS: reports not retrieved,24,"never attempted under an unplanned stopping rule (23; advisor Q22) or unobtainable (R010): R005, R010, R027, R033, R036, R042, R048, R057, R058, R059, R061, R065, R066, R068, R071, R072, R073, R079, R087, R088, R093, R096, R098, R100"
+WoS: reports assessed for eligibility,23,
+WoS: excluded at full text,9,classical ML only / no DL classifier: 4; no connectivity step: 3; no signal-derived connectivity: 2. Provisional (exclude?): none
+WoS: included,14,"R001, R007, R019, R023, R032, R034, R040, R044, R049, R050, R055, R056, R082, R086"
+Supplementary (Sec 7.1): reports sought,15,"eligible-looking candidates from OpenAlex + PubMed, see supplementary_candidates.csv"
+Supplementary: reports not retrieved,11,advisor question 13 (availability bias)
+Supplementary: reports assessed,4,
+Supplementary: excluded at full text,0,
+Supplementary: included,4,"R101, R102, R103, R104"
+INCLUDED TOTAL,18,"firm 18 (R001, R007, R019, R023, R032, R034, R040, R044, R049, R050, R055, R056, R082, R086, R101, R102, R103, R104); provisional 0 ()"
+Exit condition (>=15 included),MET,

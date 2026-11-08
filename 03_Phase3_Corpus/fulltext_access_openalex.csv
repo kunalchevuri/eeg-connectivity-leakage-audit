@@ -1,0 +1,101 @@
+rank,doi,is_oa,oa_status,pdf_urls,landing,download
+1,10.1007/s11571-020-09619-0,True,green,,https://doi.org/10.1007/s11571-020-09619-0,no_free_pdf
+2,10.1002/hbm.20662,True,green,https://dipot.ulb.ac.be/dspace/bitstream/2013/54470/3/54470.pdf,https://doi.org/10.1002/hbm.20662,oa_but_blocked
+3,10.1109/TNSRE.2019.2894423,False,closed,,https://doi.org/10.1109/tnsre.2019.2894423,no_free_pdf
+4,10.1016/j.cell.2018.10.005,True,bronze,http://www.cell.com/article/S0092867418313138/pdf,https://doi.org/10.1016/j.cell.2018.10.005,oa_but_blocked
+5,10.1177/1550059420916634,False,closed,,https://doi.org/10.1177/1550059420916634,no_free_pdf
+6,10.1523/JNEUROSCI.1570-14.2014,True,hybrid,https://www.jneurosci.org/content/jneuro/34/45/15009.full.pdf,https://doi.org/10.1523/jneurosci.1570-14.2014,oa_but_blocked
+7,10.3389/fnins.2020.00192,True,gold,https://www.frontiersin.org/articles/10.3389/fnins.2020.00192/pdf,https://doi.org/10.3389/fnins.2020.00192,downloaded
+8,10.1016/S1474-4422(18)30031-0,False,closed,,https://doi.org/10.1016/s1474-4422(18)30031-0,no_free_pdf
+9,10.1016/j.clinph.2020.06.031,True,green,,https://doi.org/10.1016/j.clinph.2020.06.031,no_free_pdf
+10,10.1016/j.compbiomed.2022.105815,False,closed,,https://doi.org/10.1016/j.compbiomed.2022.105815,no_free_pdf
+11,10.1016/j.neuroimage.2014.07.040,False,closed,,https://doi.org/10.1016/j.neuroimage.2014.07.040,no_free_pdf
+12,10.1016/j.bspc.2022.104157,False,closed,,https://doi.org/10.1016/j.bspc.2022.104157,no_free_pdf
+13,10.1016/j.euroneuro.2012.10.011,False,closed,https://dipot.ulb.ac.be/dspace/bitstream/2013/167990/1/Elsevier_151620.pdf,https://doi.org/10.1016/j.euroneuro.2012.10.011,oa_but_blocked
+14,10.1016/j.clinph.2012.12.003,False,closed,,https://doi.org/10.1016/j.clinph.2012.12.003,no_free_pdf
+15,10.4103/1673-5374.162698,True,gold,,https://doi.org/10.4103/1673-5374.162698,no_free_pdf
+16,10.4306/pi.2015.12.1.61,True,diamond,https://www.psychiatryinvestigation.org/upload/pdf/pi-12-61.pdf,https://doi.org/10.4306/pi.2015.12.1.61,downloaded
+17,10.1186/s12868-016-0239-x,True,gold,https://bmcneurosci.biomedcentral.com/counter/pdf/10.1186/s12868-016-0239-x,https://doi.org/10.1186/s12868-016-0239-x,oa_but_blocked
+18,10.1038/s41598-023-34650-6,True,gold,https://www.nature.com/articles/s41598-023-34650-6.pdf | https://pmc.ncbi.nlm.nih.gov/articles/PMC10195805/pdf/41598_2023_Article_34650.pdf,https://doi.org/10.1038/s41598-023-34650-6,downloaded
+19,10.1109/ACCESS.2023.3270426,True,gold,https://ieeexplore.ieee.org/ielx7/6287639/6514899/10109090.pdf,https://doi.org/10.1109/access.2023.3270426,oa_but_blocked
+20,10.1109/TAFFC.2021.3139104,False,closed,,https://doi.org/10.1109/taffc.2021.3139104,no_free_pdf
+21,10.1109/JBHI.2022.3195066,False,closed,,https://doi.org/10.1109/jbhi.2022.3195066,no_free_pdf
+22,10.1016/j.brs.2022.01.007,True,gold,http://www.brainstimjrnl.com/article/S1935861X22000080/pdf,https://doi.org/10.1016/j.brs.2022.01.007,oa_but_blocked
+23,10.1007/s11071-020-05665-9,True,green,https://hdl.handle.net/2164/16428,https://doi.org/10.1007/s11071-020-05665-9,oa_but_blocked
+24,10.1016/j.ynstr.2016.11.003,True,gold,https://ars.els-cdn.com/content/image/1-s2.0-S2352289515300424-fx1_lrg.jpg,https://doi.org/10.1016/j.ynstr.2016.11.003,oa_but_blocked
+25,10.1007/s11042-022-13809-9,False,closed,,https://doi.org/10.1007/s11042-022-13809-9,no_free_pdf
+26,10.3389/fnhum.2020.00339,True,gold,https://www.frontiersin.org/articles/10.3389/fnhum.2020.00339/pdf,https://doi.org/10.3389/fnhum.2020.00339,downloaded
+27,10.1109/embc44109.2020.9176471,False,closed,,https://doi.org/10.1109/embc44109.2020.9176471,no_free_pdf
+28,10.3389/fnins.2023.1205931,True,gold,https://pmc.ncbi.nlm.nih.gov/articles/PMC10483285/pdf/fnins-17-1205931.pdf,https://doi.org/10.3389/fnins.2023.1205931,oa_but_blocked
+29,10.1109/JBHI.2024.3349583,False,closed,,https://doi.org/10.1109/jbhi.2024.3349583,no_free_pdf
+30,10.3389/fpsyt.2022.864393,True,gold,https://www.frontiersin.org/articles/10.3389/fpsyt.2022.864393/pdf,https://doi.org/10.3389/fpsyt.2022.864393,downloaded
+31,10.1038/s41380-025-02974-6,True,hybrid,https://pmc.ncbi.nlm.nih.gov/articles/PMC12339373/pdf/41380_2025_Article_2974.pdf,https://doi.org/10.1038/s41380-025-02974-6,oa_but_blocked
+32,10.1007/s12539-023-00567-x,True,bronze,https://link.springer.com/content/pdf/10.1007/s12539-023-00567-x.pdf | https://pmc.ncbi.nlm.nih.gov/articles/PMC10158716/pdf/12539_2023_Article_567.pdf,https://doi.org/10.1007/s12539-023-00567-x,oa_but_blocked
+33,10.1016/j.bspc.2024.106182,False,closed,,https://doi.org/10.1016/j.bspc.2024.106182,no_free_pdf
+34,10.1109/TNSRE.2023.3320693,True,gold,https://ieeexplore.ieee.org/ielx7/7333/4359219/10268256.pdf,https://doi.org/10.1109/tnsre.2023.3320693,downloaded
+35,10.3390/s20247354,True,gold,https://www.mdpi.com/1424-8220/20/24/7354/pdf?version=1608628586 | http://eprints.usq.edu.au/48397/3/Interpretability_of_Spatiotemporal_Dynamics_of_the.pdf | http://irep.ntu.ac.uk/id/eprint/42347/1/1408801_Sumich.pdf | https://openrepository.aut.ac.nz/bitstreams/40df25ec-8645-42e4-a954-1e1c48d66d91/download,https://doi.org/10.3390/s20247354,downloaded
+36,10.1109/BIBM49941.2020.9313270,False,closed,,https://doi.org/10.1109/bibm49941.2020.9313270,no_free_pdf
+37,10.3390/s23020902,True,gold,https://www.mdpi.com/1424-8220/23/2/902/pdf?version=1673520119 | https://irep.ntu.ac.uk/id/eprint/47970/1/1635263_Sumich.pdf | https://openrepository.aut.ac.nz/bitstreams/976c85f3-bdb3-4f13-a838-f185ee169fb7/download | https://pmc.ncbi.nlm.nih.gov/articles/PMC9861477/pdf/sensors-23-00902.pdf,https://doi.org/10.3390/s23020902,downloaded
+38,10.1155/2020/8915961,True,hybrid,https://downloads.hindawi.com/journals/cin/2020/8915961.pdf,https://doi.org/10.1155/2020/8915961,oa_but_blocked
+39,10.1109/JSEN.2021.3108471,False,closed,,https://doi.org/10.1109/jsen.2021.3108471,no_free_pdf
+40,10.1007/s11571-023-10041-5,True,green,https://pmc.ncbi.nlm.nih.gov/articles/PMC11297863/pdf/11571_2023_Article_10041.pdf,https://doi.org/10.1007/s11571-023-10041-5,oa_but_blocked
+41,10.1002/hbm.26474,True,gold,https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hbm.26474 | https://pmc.ncbi.nlm.nih.gov/articles/PMC10619388/pdf/HBM-44-5749.pdf,https://doi.org/10.1002/hbm.26474,oa_but_blocked
+42,10.1016/j.neucom.2025.130008,False,closed,,https://doi.org/10.1016/j.neucom.2025.130008,no_free_pdf
+43,10.1016/j.neurobiolaging.2023.08.006,False,closed,,https://doi.org/10.1016/j.neurobiolaging.2023.08.006,no_free_pdf
+44,10.1109/TNSRE.2023.3311458,True,gold,https://ieeexplore.ieee.org/ielx7/7333/4359219/10238750.pdf,https://doi.org/10.1109/tnsre.2023.3311458,downloaded
+45,10.1016/j.neuroimage.2023.120495,True,gold,,https://doi.org/10.1016/j.neuroimage.2023.120495,no_free_pdf
+46,10.1016/j.clinph.2013.03.004,False,closed,,https://doi.org/10.1016/j.clinph.2013.03.004,no_free_pdf
+47,10.1155/2014/817852,True,gold,https://downloads.hindawi.com/journals/np/2014/817852.pdf,https://doi.org/10.1155/2014/817852,oa_but_blocked
+48,10.1016/j.bspc.2023.104666,False,closed,,https://doi.org/10.1016/j.bspc.2023.104666,no_free_pdf
+49,10.3934/mbe.2025024,True,gold,http://www.aimspress.com/aimspress-data/mbe/2025/3/PDF/mbe-22-03-024.pdf,https://doi.org/10.3934/mbe.2025024,downloaded
+50,10.1016/j.neuroimage.2024.120750,True,gold,,https://doi.org/10.1016/j.neuroimage.2024.120750,no_free_pdf
+51,10.1016/j.inffus.2025.102971,False,closed,,https://doi.org/10.1016/j.inffus.2025.102971,no_free_pdf
+52,10.1016/j.neuroimage.2022.119348,True,gold,https://www.sciencedirect.com/science/article/pii/S1053811922004670/pdf | https://www.zora.uzh.ch/id/eprint/222963/1/1_s2.0_S1053811922004670_main.pdf,https://doi.org/10.1016/j.neuroimage.2022.119348,oa_but_blocked
+53,10.1371/journal.pone.0277257,True,gold,https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0277257&type=printable,https://doi.org/10.1371/journal.pone.0277257,downloaded
+54,10.1186/s13293-020-00297-5,True,gold,https://bsd.biomedcentral.com/track/pdf/10.1186/s13293-020-00297-5,https://doi.org/10.1186/s13293-020-00297-5,oa_but_blocked
+55,10.3390/bdcc5030039,True,gold,https://www.mdpi.com/2504-2289/5/3/39/pdf?version=1631186050,https://doi.org/10.3390/bdcc5030039,oa_but_blocked
+56,10.3389/fnins.2023.1133834,True,gold,https://www.frontiersin.org/articles/10.3389/fnins.2023.1133834/pdf | https://pmc.ncbi.nlm.nih.gov/articles/PMC10079993/pdf/fnins-17-1133834.pdf,https://doi.org/10.3389/fnins.2023.1133834,downloaded
+57,10.1088/1741-2552/ac8dc3,False,closed,,https://doi.org/10.1088/1741-2552/ac8dc3,no_free_pdf
+58,10.1016/j.compbiomed.2025.110045,False,closed,,https://doi.org/10.1016/j.compbiomed.2025.110045,no_free_pdf
+59,10.1109/BIBM55620.2022.9995246,False,closed,,https://doi.org/10.1109/bibm55620.2022.9995246,no_free_pdf
+60,10.1109/SoutheastCon51012.2023.10115194,False,closed,,http://dx.doi.org/10.1109/southeastcon51012.2023.10115194,no_free_pdf
+61,10.1093/cercor/bhae505,False,closed,,https://doi.org/10.1093/cercor/bhae505,no_free_pdf
+62,10.1016/j.neubiorev.2025.106201,False,closed,,https://doi.org/10.1016/j.neubiorev.2025.106201,no_free_pdf
+63,10.1093/pnasnexus/pgad032,True,gold,https://pmc.ncbi.nlm.nih.gov/articles/PMC9982063/pdf/pgad032.pdf,https://doi.org/10.1093/pnasnexus/pgad032,oa_but_blocked
+64,10.1109/TNNLS.2025.3576182,False,closed,,https://doi.org/10.1109/tnnls.2025.3576182,no_free_pdf
+65,10.1109/TIM.2025.3544713,False,closed,,https://doi.org/10.1109/tim.2025.3544713,no_free_pdf
+66,10.1109/TCSS.2025.3576373,False,closed,,https://doi.org/10.1109/tcss.2025.3576373,no_free_pdf
+67,10.1016/j.bspc.2024.107362,True,hybrid,,https://doi.org/10.1016/j.bspc.2024.107362,no_free_pdf
+68,10.1016/j.bspc.2024.106973,False,closed,,https://doi.org/10.1016/j.bspc.2024.106973,no_free_pdf
+69,10.1016/j.sleep.2025.106645,False,closed,,https://doi.org/10.1016/j.sleep.2025.106645,no_free_pdf
+70,10.3389/fpsyt.2024.1469645,True,gold,https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2024.1469645/pdf | https://pmc.ncbi.nlm.nih.gov/articles/PMC11525785/pdf/fpsyt-15-1469645.pdf,https://doi.org/10.3389/fpsyt.2024.1469645,downloaded
+71,10.1016/j.chaos.2025.116163,False,closed,,https://doi.org/10.1016/j.chaos.2025.116163,no_free_pdf
+72,10.1016/j.bspc.2026.109681,False,closed,,https://doi.org/10.1016/j.bspc.2026.109681,no_free_pdf
+73,10.1109/JSEN.2024.3493960,False,closed,,https://doi.org/10.1109/jsen.2024.3493960,no_free_pdf
+74,10.1016/j.jad.2025.119599,True,hybrid,,https://doi.org/10.1016/j.jad.2025.119599,no_free_pdf
+75,10.17691/stm2024.16.1.07,True,diamond,http://www.stm-journal.ru/en/numbers/2024/1/1862/pdf | https://pmc.ncbi.nlm.nih.gov/articles/PMC11482091/pdf/STM-16-1-07.pdf,https://doi.org/10.17691/stm2024.16.1.07,oa_but_blocked
+76,10.3390/brainsci14080845,True,gold,https://www.mdpi.com/2076-3425/14/8/845/pdf?version=1724320701 | https://rune.une.edu.au/bitstreams/3e9ec63c-21bb-47ba-9175-824e0e4ed50e/download | https://pmc.ncbi.nlm.nih.gov/articles/PMC11352653/pdf/brainsci-14-00845.pdf,https://doi.org/10.3390/brainsci14080845,downloaded
+77,10.3390/bioengineering12101032,True,gold,https://www.mdpi.com/2306-5354/12/10/1032/pdf?version=1758894248,https://doi.org/10.3390/bioengineering12101032,oa_but_blocked
+78,10.1109/BIBM55620.2022.9994864,False,closed,,http://dx.doi.org/10.1109/bibm55620.2022.9994864,no_free_pdf
+79,10.1166/jmihi.2020.2866,False,closed,,https://doi.org/10.1166/jmihi.2020.2866,no_free_pdf
+80,10.1016/j.jad.2026.121595,False,closed,,https://doi.org/10.1016/j.jad.2026.121595,no_free_pdf
+81,10.1134/S0362119723700640,False,closed,,http://dx.doi.org/10.1134/s0362119723700640,no_free_pdf
+82,10.3390/s25164989,True,gold,https://www.mdpi.com/1424-8220/25/16/4989/pdf?version=1755064976,https://doi.org/10.3390/s25164989,oa_but_blocked
+83,10.1016/j.neuroscience.2025.07.010,False,closed,,https://doi.org/10.1016/j.neuroscience.2025.07.010,no_free_pdf
+84,10.3390/app15094804,True,gold,https://www.mdpi.com/2076-3417/15/9/4804/pdf?version=1745648943,https://doi.org/10.3390/app15094804,oa_but_blocked
+85,10.31083/JIN48264,True,gold,,https://doi.org/10.31083/jin48264,no_free_pdf
+86,10.1209/0295-5075/ac7ba4,True,bronze,https://iopscience.iop.org/article/10.1209/0295-5075/ac7ba4/pdf,https://doi.org/10.1209/0295-5075/ac7ba4,oa_but_blocked
+87,10.1109/IJCNN60899.2024.10650157,False,closed,,http://dx.doi.org/10.1109/ijcnn60899.2024.10650157,no_free_pdf
+88,10.1016/j.neucom.2025.131074,False,closed,,https://doi.org/10.1016/j.neucom.2025.131074,no_free_pdf
+89,10.1109/ACCESS.2025.3614269,True,gold,,https://doi.org/10.1109/access.2025.3614269,no_free_pdf
+90,10.1007/978-3-031-64629-4_23,False,closed,,https://doi.org/10.1007/978-3-031-64629-4_23,no_free_pdf
+91,10.1371/journal.pone.0337470,True,gold,https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0337470&type=printable,https://doi.org/10.1371/journal.pone.0337470,downloaded
+92,10.1007/s13755-026-00463-w,True,green,,https://doi.org/10.1007/s13755-026-00463-w,no_free_pdf
+93,10.1016/j.irbm.2026.100941,False,closed,,https://doi.org/10.1016/j.irbm.2026.100941,no_free_pdf
+94,10.1016/j.jad.2026.121787,False,closed,,https://doi.org/10.1016/j.jad.2026.121787,no_free_pdf
+95,10.3389/fpsyt.2026.1808486,True,gold,https://digitalcommons.library.tmc.edu/cgi/viewcontent.cgi?article=8174&context=baylor_docs,https://doi.org/10.3389/fpsyt.2026.1808486,oa_but_blocked
+96,10.1109/SPMB62441.2024.10842259,False,closed,,https://doi.org/10.1109/spmb62441.2024.10842259,no_free_pdf
+97,10.3389/fnsys.2026.1805778,True,gold,https://www.frontiersin.org/journals/systems-neuroscience/articles/10.3389/fnsys.2026.1805778/pdf,https://doi.org/10.3389/fnsys.2026.1805778,downloaded
+98,10.1109/ICASSP49660.2025.10890734,False,closed,,https://doi.org/10.1109/icassp49660.2025.10890734,no_free_pdf
+99,10.3389/fnhum.2026.1774822,True,gold,https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2026.1774822/pdf | https://pmc.ncbi.nlm.nih.gov/articles/PMC13286898/pdf/fnhum-20-1774822.pdf,https://doi.org/10.3389/fnhum.2026.1774822,downloaded
+100,10.1109/JSEN.2026.3657750,False,closed,,https://doi.org/10.1109/jsen.2026.3657750,no_free_pdf
